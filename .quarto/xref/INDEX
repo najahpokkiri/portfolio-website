@@ -1,0 +1,56 @@
+{
+  "index.qmd": {
+    "index.html": "be44d102"
+  },
+  "posts/post-with-code/index.qmd": {
+    "index.html": "d3e57df5"
+  },
+  "posts/welcome/index.qmd": {
+    "index.html": "a293e024"
+  },
+  "about.qmd": {
+    "about.html": "4919d70a"
+  },
+  "posts/compare-spectra/index.qmd": {
+    "index.html": "1aa0b32c"
+  },
+  "resume.qmd": {
+    "resume.html": "9abd77ba"
+  },
+  "projects.qmd": {
+    "projects.html": "7dff6c2d"
+  },
+  "publications.qmd": {
+    "publications.html": "9f8047ca"
+  },
+  "posts/cpr-pol-connect/index.qmd": {
+    "index.html": "dea8640a"
+  },
+  "posts/d3s/index.qmd": {
+    "index.html": "6c114fc4"
+  },
+  "posts/delhi_lulc/index.qmd": {
+    "index.html": "cf27a491"
+  },
+  "posts/nl/nl_vs.ipynb": {
+    "nl_vs.html": "b3e82301"
+  },
+  "posts/nl/index.rmd": {
+    "index.html": "bdd860a4"
+  },
+  "posts/nl/index.qmd": {
+    "index.html": "1447e0e1"
+  },
+  "posts/viz/index.qmd": {
+    "index.html": "f2b2c20b"
+  },
+  "posts/spatial-viz/spatial-viz.qmd": {
+    "spatial-viz.html": "e57f78c7"
+  },
+  "posts/spatial-viz/index.qmd": {
+    "index.html": "585494d2"
+  },
+  "posts/nl/index1.qmd": {
+    "index1.html": "81d80d84"
+  }
+}

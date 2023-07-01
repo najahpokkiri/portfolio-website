@@ -1,0 +1,4 @@
+- source: project
+  netlify:
+    - id: 30b49e40-8555-4006-b11f-f6f4837884d9
+      url: 'https://abdulnajah.com'

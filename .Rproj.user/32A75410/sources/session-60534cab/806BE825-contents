@@ -1,0 +1,30 @@
+---
+title: "Data Science Slides"
+author: "Najah"
+date: "2023-05-17"
+image: d3s-slide-ss.webp
+description: "My teaching slides from the data science class"
+filters:
+   - lightbox
+lightbox: 
+  match: auto
+categories: [R, code,teaching]
+---
+
+During the spring of 2023, I had the incredible opportunity to contribute as a teaching fellow for an undergraduate course at [Ashoka University](https://www.ashoka.edu.in/). The course, titled "Data Science for Social Science," was primarily aimed at students studying Political Science and Economics. As part of the teaching team, my responsibilities included leading weekly discussion sections, where I provided in-depth reviews of the data science methods covered in the main lectures.
+
+In these discussion sections, my approach involved a combination of practical examples, live coding demonstrations, and addressing students' queries and challenges with their coding tasks. Each week, I conducted six discussion sections, with an average of 15 students attending each session. Overall, the class consisted of approximately 90 students.
+
+To showcase my contributions and provide insight into my teaching approach, I have compiled a selection of slides from my discussion sections. These slides capture the essence of the topics covered and the interactive learning environment fostered during the course.
+
+Feel free to explore the following slides, which offer a glimpse into my instructional techniques and the impact I had on the students' understanding of data science in the context of social sciences.
+
+[**Introduction to R and R Studio**](https://d3s-ds-wk2.netlify.app/)
+
+[**Data Manipulation with `dplyr`**](https://d3s-ds-wk4.netlify.app/)
+
+[**Merging Data**](https://d3s-ds-wk4.netlify.app/)
+
+[**Data Visualisation using `ggplot2`**](https://d3s-ds-wk5.netlify.app/)
+
+[**Predicting Housing Prices using Linear Regression**](https://d3s-ds-wk9.netlify.app/)
