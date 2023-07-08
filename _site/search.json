@@ -49,11 +49,25 @@
     "text": "During the spring of 2023, I had the incredible opportunity to contribute as a teaching fellow for an undergraduate course at Ashoka University. The course, titled “Data Science for Social Science,” was primarily aimed at students studying Political Science and Economics. As part of the teaching team, my responsibilities included leading weekly discussion sections, where I provided in-depth reviews of the data science methods covered in the main lectures.\nIn these discussion sections, my approach involved a combination of practical examples, live coding demonstrations, and addressing students’ queries and challenges with their coding tasks. Each week, I conducted six discussion sections, with an average of 15 students attending each session. Overall, the class consisted of approximately 90 students.\nTo showcase my contributions and provide insight into my teaching approach, I have compiled a selection of slides from my discussion sections. These slides capture the essence of the topics covered and the interactive learning environment fostered during the course.\nFeel free to explore the following slides, which offer a glimpse into my instructional techniques and the impact I had on the students’ understanding of data science in the context of social sciences.\nIntroduction to R and R Studio\nData Manipulation with dplyr\nMerging Data\nData Visualisation using ggplot2\nPredicting Housing Prices using Linear Regression"
   },
   {
+    "objectID": "posts/gee-download/index.html",
+    "href": "posts/gee-download/index.html",
+    "title": "Satellite Image Download from Google Earth Engine using Python",
+    "section": "",
+    "text": "# import earth engine package and authenticate\nimport ee\ntry:\n    ee.Initialize()\nexcept:\n    ee.Authenticate()\n    ee.Initialize()"
+  },
+  {
+    "objectID": "posts/gee-download/index.html#task-the-download",
+    "href": "posts/gee-download/index.html#task-the-download",
+    "title": "Satellite Image Download from Google Earth Engine using Python",
+    "section": "Task the download",
+    "text": "Task the download\n\n\ntask = ee.batch.Export.image.toDrive(**export_params)\ntask.start()\n\nThis will take a few mintues. You can check the progress at the task manager tab on GEE. Once it is finished, you can download the image from your google drive.\nHere is the link to the full notebook: github"
+  },
+  {
     "objectID": "projects.html",
     "href": "projects.html",
     "title": "Projects",
     "section": "",
-    "text": "Satellite Image Clasification using Machine Learning\n\n\n\nGEE\n\n\nRemote Sensing\n\n\nMachine Learning\n\n\njavascript\n\n\n\nEstimating the urbanisation in Delhi Using Google Earth Engine and Machine Learning\n\n\n\nNajah\n\n\nJun 23, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCompare Spectra App\n\n\n\nnews\n\n\ncode\n\n\napp\n\n\njavascript\n\n\n\nIntroducing the compare-spectra app\n\n\n\nNajah\n\n\nJun 20, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nData Viz gallery\n\n\n\nR\n\n\ncode\n\n\nViz\n\n\n\nA few of my data visualisations\n\n\n\nNajah\n\n\nMay 24, 2023\n\n\n\n\n\n\n\n\n\n\n\n\nSpatial Viz gallery\n\n\n\nViz\n\n\n\nA few of of my vector and raster maps\n\n\n\nNajah\n\n\nMay 24, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nData Science Slides\n\n\n\nR\n\n\ncode\n\n\nteaching\n\n\n\nMy teaching slides from the data science class\n\n\n\nNajah\n\n\nMay 17, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nData Science works at CPR\n\n\n\nR\n\n\ncode\n\n\n\n\n\n\n\nNajah\n\n\nJan 31, 2022\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Satellite Image Download from Google Earth Engine using Python\n\n\n\nGEE\n\n\nRemote Sensing\n\n\nPython\n\n\n\n\n\n\n\nNajah\n\n\nJul 8, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSatellite Image Clasification using Machine Learning\n\n\n\nGEE\n\n\nRemote Sensing\n\n\nMachine Learning\n\n\njavascript\n\n\n\nEstimating the urbanisation in Delhi Using Google Earth Engine and Machine Learning\n\n\n\nNajah\n\n\nJun 23, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCompare Spectra App\n\n\n\nnews\n\n\ncode\n\n\napp\n\n\njavascript\n\n\n\nIntroducing the compare-spectra app\n\n\n\nNajah\n\n\nJun 20, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nData Viz gallery\n\n\n\nR\n\n\ncode\n\n\nViz\n\n\n\nA few of my data visualisations\n\n\n\nNajah\n\n\nMay 24, 2023\n\n\n\n\n\n\n\n\n\n\n\n\nSpatial Viz gallery\n\n\n\nViz\n\n\n\nA few of of my vector and raster maps\n\n\n\nNajah\n\n\nMay 24, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nData Science Slides\n\n\n\nR\n\n\ncode\n\n\nteaching\n\n\n\nMy teaching slides from the data science class\n\n\n\nNajah\n\n\nMay 17, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nData Science works at CPR\n\n\n\nR\n\n\ncode\n\n\n\n\n\n\n\nNajah\n\n\nJan 31, 2022\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html",

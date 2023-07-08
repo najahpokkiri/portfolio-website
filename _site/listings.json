@@ -2,6 +2,7 @@
   {
     "listing": "/projects.html",
     "items": [
+      "/posts/gee-download/index.html",
       "/posts/delhi_lulc/index.html",
       "/posts/compare-spectra/index.html",
       "/posts/viz/index.html",
