@@ -8,7 +8,7 @@ website:
       - text: Home
         href: index.qmd
       - text: Portfolio
-        href: projects.qmd
+        href: portfolio.qmd
       - text: Publications
         href: publications.qmd
       - text: Resume

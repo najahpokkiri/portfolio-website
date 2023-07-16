@@ -55,5 +55,11 @@
   },
   "posts/gee-download/index.ipynb": {
     "index.html": "45ff5603"
+  },
+  "posts/ml-burned-area-prediction-landsat5-python/index.ipynb": {
+    "index.html": "92e63a4b"
+  },
+  "portfolio.qmd": {
+    "portfolio.html": "43e2487d"
   }
 }
