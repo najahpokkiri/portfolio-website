@@ -717,7 +717,7 @@ Name: land_class, dtype: int64</code></pre>
 <pre><code>((548, 11), (137, 11), (548,), (137,))</code></pre>
 </div>
 </div>
-<p>Since we don’t have equal number of samples for each class we create a dictionary that specifes the relative class distribtion for our data. This would helps the algorithm to reduce the bias. We obtain the class weights by calculating the reciprocal of the class counts. These weights will assign higher importance to minority classes during model training, helping to mitigate the effects of class imbalance</p>
+<p>Since we don’t have equal number of samples for each class we create a dictionary that specifes the relative class distribtion for our data. This would helps the algorithm to reduce the bias. We obtain the class weights by calculating the reciprocal of the class counts. These weights will assign higher importance to minority classes during model training, helping to mitigate the effects of class imbalance.</p>
 <div class="cell" data-execution_count="14">
 <div class="sourceCode cell-code" id="cb28"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb28-1"><a href="#cb28-1" aria-hidden="true" tabindex="-1"></a>labels, counts <span class="op">=</span> np.unique(y_train, return_counts <span class="op">=</span> <span class="va">True</span>)</span>
 <span id="cb28-2"><a href="#cb28-2" aria-hidden="true" tabindex="-1"></a>class_weight_dict <span class="op">=</span> <span class="bu">dict</span>(<span class="bu">zip</span>(labels, <span class="dv">1</span><span class="op">/</span>counts))</span>
@@ -731,7 +731,7 @@ Name: land_class, dtype: int64</code></pre>
 <p>Random Forest is a supervised classification algorithm that uses ensemble learning method for classification. Ensemble learning is a type of learning where you join different types of algorithms or same algorithm multiple times to form a more powerful prediction model. The random forest algorithm combines multiple algorithm of the same type i.e.&nbsp;multiple decision trees, resulting in a forest of trees, hence the name “Random Forest”. In general, the more trees in the forest the more robust the forest looks like. In the same way in the random forest classifier, the higher the number of trees in the forest gives the high accuracy results.</p>
 <p>It uses decision trees to classify the data into pre-defined classed and then utlise the majority voting to decide the final class. Some of the parameters are:</p>
 <ul>
-<li>Number of Treses : Number of trees in the forest.</li>
+<li>Number of Trees : Number of trees in the forest.</li>
 <li>Number of Varibales per Split: Number of variables to consider when looking for the best way to split the data at each node of a decision tree.</li>
 <li>Class Weight: Weights associated with classes. If not given, all classes are supposed to have weight one.</li>
 </ul>
@@ -906,7 +906,7 @@ Best F1 Score: 0.8899791686173177</code></pre>
 </section>
 <section id="predict-over-the-entire-image" class="level2">
 <h2 class="anchored" data-anchor-id="predict-over-the-entire-image">Predict over the entire image</h2>
-<p>We are going by small patches to minimise memory use and to avoid crashes. For, that we read our full image and the collect the profile data to write the metadata for the classified band. We read the bands later by specifying a small patch of the image using window function. Parallel to this we open the image to saved in the write mode and then write onto it window by window. .</p>
+<p>We are going by small patches to minimise memory use and to avoid crashes. For, that we read our full image and the collect the profile data to write the metadata for the classified band. We read the bands later by specifying a small patch of the image using window function. Parallel to this we open the image to saved in the write mode and then write onto it window by window.</p>
 <div class="cell" data-execution_count="43">
 <div class="sourceCode cell-code" id="cb42"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb42-1"><a href="#cb42-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> datetime</span>
 <span id="cb42-2"><a href="#cb42-2" aria-hidden="true" tabindex="-1"></a></span>
@@ -1087,8 +1087,8 @@ total area of burned area in this image is: 16407.51 KMsq</code></pre>
 </section>
 <section id="conclusion" class="level2">
 <h2 class="anchored" data-anchor-id="conclusion">Conclusion</h2>
-<p>We have successfully built a model and use it to predict over the image. Thi shows that we can use machine learning to predict fire over large areas. We can use this model to predict fire over large areas and then use that information to take preventive measures.</p>
-<p>There are many ways to improve the model. We can use more samples for burned class to improve the accuracy of the model. We can also use other algorithms like Support Vector Machine, K-Nearest Neighbours, etc. to improve the accuracy of the model. We can also use other informaton like slope, aspect, elevation, etc. to improve the accuracy of the model. I have limited the scope of this tutorial to Random Forest Classifier with limited data. But, you can try other algorithms and see if you can improve the accuracy of the model.</p>
+<p>We have successfully built a model and use it to predict over the image. This shows that we can use machine learning to predict fire over large areas. We can use this model to predict fire over large areas and then use that information to take preventive measures.</p>
+<p>There are many ways to improve the model. We can use more samples for burned class to improve the accuracy of the model. We can also use other algorithms like Support Vector Machine to improve the accuracy of the model. We can also use other informaton like slope, aspect, elevation, etc. to improve the accuracy of the model. I have limited the scope of this tutorial to Random Forest Classifier with limited data. But, you can try other algorithms and see if you can improve the accuracy of the model.</p>
 <p>Note: Feel free to ask any questions if you need further clarification or have doubts!</p>
 
 
