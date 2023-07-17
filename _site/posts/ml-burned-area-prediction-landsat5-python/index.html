@@ -294,14 +294,12 @@ gtag('config', 'G-FZ5ET06LCD', { 'anonymize_ip': true});
 <span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a><span class="co"># for reading and manipulating vector data</span></span>
 <span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> geopandas <span class="im">as</span> gpd</span>
 <span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a><span class="co"># for data manipulation</span></span>
-<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
-<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a><span class="co"># y for working with arrays</span></span>
-<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
-<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a><span class="co">#  for machine learning algorithms</span></span>
-<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> sklearn</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a><span class="co"># y for working with arrays</span></span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a><span class="co">#  for machine learning algorithms</span></span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> sklearn</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
 <section id="downlaoding-the-image-from-planetary-computer" class="level2">
@@ -892,11 +890,7 @@ F1 score for Burned class: 0.75</code></pre>
 <span id="cb40-33"><a href="#cb40-33" aria-hidden="true" tabindex="-1"></a>final_clf <span class="op">=</span> RandomForestClassifier(random_state<span class="op">=</span><span class="dv">10</span>, class_weight<span class="op">=</span>class_weight_dict, <span class="op">**</span>best_params)</span>
 <span id="cb40-34"><a href="#cb40-34" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb40-35"><a href="#cb40-35" aria-hidden="true" tabindex="-1"></a><span class="co"># fit the model with the best params</span></span>
-<span id="cb40-36"><a href="#cb40-36" aria-hidden="true" tabindex="-1"></a>final_clf.fit(X_train, y_train)</span>
-<span id="cb40-37"><a href="#cb40-37" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb40-38"><a href="#cb40-38" aria-hidden="true" tabindex="-1"></a><span class="co">#predict</span></span>
-<span id="cb40-39"><a href="#cb40-39" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb40-40"><a href="#cb40-40" aria-hidden="true" tabindex="-1"></a>preds <span class="op">=</span> final_clf.predict(X_test)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb40-36"><a href="#cb40-36" aria-hidden="true" tabindex="-1"></a>final_clf.fit(X_train, y_train)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>Best Parameters: {'max_depth': 7, 'min_samples_split': 2, 'n_estimators': 200}
 Best F1 Score: 0.8899791686173177</code></pre>
@@ -1089,6 +1083,7 @@ total area of burned area in this image is: 16407.51 KMsq</code></pre>
 <h2 class="anchored" data-anchor-id="conclusion">Conclusion</h2>
 <p>We have successfully built a model and use it to predict over the image. This shows that we can use machine learning to predict fire over large areas. We can use this model to predict fire over large areas and then use that information to take preventive measures.</p>
 <p>There are many ways to improve the model. We can use more samples for burned class to improve the accuracy of the model. We can also use other algorithms like Support Vector Machine to improve the accuracy of the model. We can also use other informaton like slope, aspect, elevation, etc. to improve the accuracy of the model. I have limited the scope of this tutorial to Random Forest Classifier with limited data. But, you can try other algorithms and see if you can improve the accuracy of the model.</p>
+<p>You can find the full notbeook and the data in this github repository: <a href="https://github.com/AbdulNajah/burned-area-prediction-landsat5">Link</a></p>
 <p>Note: Feel free to ask any questions if you need further clarification or have doubts!</p>
 
 
