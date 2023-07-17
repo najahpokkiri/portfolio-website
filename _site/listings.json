@@ -3,7 +3,7 @@
     "listing": "/portfolio.html",
     "items": [
       "/posts/ml-burned-area-prediction-landsat5-python/index.html",
-      "/posts/delhi_lulc/index.html",
+      "/posts/gee-urbanisation-ml-sentinel-2/index.html",
       "/posts/compare-spectra/index.html",
       "/posts/viz/index.html",
       "/posts/spatial-viz/index.html",

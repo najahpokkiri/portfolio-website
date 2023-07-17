@@ -27,6 +27,14 @@ In this post, I am sharing a project I completed as part of my machine learning 
 
 To initiate the project, I obtained the precise boundary geometry of Delhi using the FAO/GAUL/2015/level2 dataset. This enabled me to focus specifically on the area of interest and streamline the analysis.
 
+``` javascript
+
+var delhi = ee.FeatureCollection("FAO/GAUL/2015/level2").filter(ee.Filter.eq('ADM2_NAME','Delhi')).geometry();
+
+
+
+```
+
 #### Filtering Sentinel-2 Imagery:
 
 Next, I accessed the Sentinel-2 satellite imagery from the COPERNICUS/S2_SR image collection. To ensure high-quality data, I filtered the imagery based on a cloud cover percentage of less than 30% and a date range of January 1, 2019, to December 31, 2019. Additionally, I restricted the imagery to be within the bounds of Delhi, using the previously acquired boundary geometry. Subsequently, I selected the relevant spectral bands (B4, B3, B2) for the analysis.
@@ -34,7 +42,7 @@ Next, I accessed the Sentinel-2 satellite imagery from the COPERNICUS/S2_SR imag
 ``` javascript
 // Code snippet 1: Filtering Sentinel-2 imagery
 var sentinel2 = ee.ImageCollection("COPERNICUS/S2_SR")
-  .filterBounds(delhiBoundaryGeometry)
+  .filterBounds(delhi)
   .filterDate("2019-01-01", "2019-12-31")
   .filter(ee.Filter.lt("CLOUDY_PIXEL_PERCENTAGE", 30))
   .select(["B4", "B3", "B2"]);
@@ -48,7 +56,7 @@ I then created a composite image by taking the median of the filtered images and
 
 ``` js
 // Code snippet 2: Creating the composite image
-var composite = sentinel2.median().clip(delhiBoundaryGeometry);
+var composite = sentinel2.median().clip(delhi);
 ```
 
 #### Visualising the Composite Image

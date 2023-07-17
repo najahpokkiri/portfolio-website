@@ -61,5 +61,8 @@
   },
   "portfolio.qmd": {
     "portfolio.html": "43e2487d"
+  },
+  "posts/gee-urbanisation-ml-sentinel-2/index.qmd": {
+    "index.html": "93a1c382"
   }
 }
