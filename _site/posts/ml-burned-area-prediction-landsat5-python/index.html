@@ -920,8 +920,6 @@ Best F1 Score: 0.8899791686173177</code></pre>
 </section>
 <section id="predict-over-the-entire-image" class="level2">
 <h2 class="anchored" data-anchor-id="predict-over-the-entire-image">Predict over the entire image</h2>
-<p>Now that we have successfully built our model using training data from a small portion of the full image, we can proceed to predict the burned area for the entire image. To minimise memory usage and avoid crashes, we will process the image in small patches.</p>
-<p>First, we read the full image and collect the profile data to write the metadata for the classified band. Then, we read the bands later by specifying a small patch of the image using a window function. In parallel, we open the image in write mode and write onto it window by window.</p>
 <p>We have built our model based on the training data from the full image which is a small portion. Now we will use the model to predict the burned area for the entire image. We will use the predict function to predict the burned area for the entire image. We are going by small patches to minimise memory use and to avoid crashes. For, that we read our full image and the collect the profile data to write the metadata for the classified band. We read the bands later by specifying a small patch of the image using window function. Parallel to this we open the image to saved in the write mode and then write onto it window by window.</p>
 <div class="cell" data-execution_count="43">
 <div class="sourceCode cell-code" id="cb43"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb43-1"><a href="#cb43-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> datetime</span>
