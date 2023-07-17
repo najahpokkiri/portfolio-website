@@ -258,13 +258,13 @@ gtag('config', 'G-FZ5ET06LCD', { 'anonymize_ip': true});
 
 <section id="introduction" class="level2">
 <h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
-<p>Wildfires are a major threat to the environment and human life. They can cause severe damage to the environment, property, and human life. In 2019, the Amazon rainforest wildfires burned more than 906,000 hectares of forest. In 2020, the Australian wildfires burned more than 18 million hectares of land. In 2021, the California wildfires burned more than 1.6 million hectares of land.</p>
+<p>Forest and Agricultural fires are are a major threat to the environment and human life. They can cause severe damage to the environment, property, and human life. In 2019, the Amazon rainforest wildfires burned more than 906,000 hectares of forest. In 2020, the Australian wildfires burned more than 18 million hectares of land. In 2021, the California wildfires burned more than 1.6 million hectares of land.</p>
 <p>The ability to predict the burned areas on satellite images can help us to better understand the impact of wildfires on the environment and human life. It can also help us to better manage the wildfires and reduce their impact on the environment and human life.</p>
-<p>In this notebook, we will use machine learning to predict the burned areas on Landsat 5 images. We will use python to prepare the data, train the model, and evaluate the model.Specifically, we will use Random Forest algorithm to predict the burned area on the image using scikit-learn. We will follow the study area from my co-authored paper with my colleagues at Ashoka Univeristy on comparing methods to detect burned area in Central India. The paper is published in Frontiers in Forests and Global Change and can be accessed <a href="https://www.frontiersin.org/articles/10.3389/ffgc.2022.933807/full">here</a>.</p>
-<p>The post is divided into 3 parts: 1). Image aquisition 2) Data preparation, 3) Model training, 4) Model evaluation and 5) Prediction on the image</p>
+<p>In this notebook, we will use machine learning to predict the burned areas on Landsat 5 images. We will use python to prepare the data, train the model, and evaluate the model.Specifically, we will use Random Forest algorithm to predict the burned area on the image using scikit-learn. We will follow the study area from my co-authored paper with my colleagues at Ashoka University on comparing methods to detect burned area in Central India. The paper is published in Frontiers in Forests and Global Change and can be accessed <a href="https://www.frontiersin.org/articles/10.3389/ffgc.2022.933807/full">here</a>.</p>
+<p>The post is divided into 5 parts: 1). Image acquisition 2) Data preparation, 3) Model training, 4) Model evaluation and 5) Prediction on the image</p>
 <section id="landsat-5" class="level3">
 <h3 class="anchored" data-anchor-id="landsat-5">Landsat 5</h3>
-<p>Landsat is a joint programme of the USGS and NASA. Landsat satellites image the entire Earth’s surface at a 30-meter resolution about once every two weeks. The Latest installment on the series is Landst 9 which becmae operational in 2021. We would be using image from Landsat 5 wich has been running from 1984 to 2013, thus providing us accessiblty and capabilty to inquire about bruned area historically. The USGS produces data in 3 categories for each satellite (Tier 1, Tier 2 and R). We will be using landsat 5 collection 2:level 2:tier 1. Tier 1 (T1) data meets geometric and radiometric quality requirements.</p>
+<p>Landsat is a joint programme of the USGS and NASA. Landsat satellites image the entire Earth’s surface at a 30-meter resolution about once every two weeks. The Latest instalment on the series is Landst 9 which became operational in 2021. We would be using image from Landsat 5 which has been running from 1984 to 2013, thus providing us accessibly and capability to inquire about burned area historically. The USGS produces data in 3 categories for each satellite (Tier 1, Tier 2 and R). We will be using landsat 5 collection 2:level 2:tier 1. Tier 1 (T1) data meets geometric and radiometric quality requirements.</p>
 <p>This dataset contains atmospherically corrected surface reflectance and land surface temperature derived from the data produced by the Landsat TM sensor. These images contain 4 visible and near-infrared (VNIR) bands and 2 short-wave infrared (SWIR) bands processed to orthorectified surface reflectance, and one thermal infrared (TIR) band processed to orthorectified surface temperature. We will use all the bands except the thermal bands since the thermal band has different resolution (100m) than others.</p>
 <p>There are a bunch of ways to download the data:</p>
 <ul>
@@ -273,7 +273,7 @@ gtag('config', 'G-FZ5ET06LCD', { 'anonymize_ip': true});
 <li><p><a href="https://registry.opendata.aws/usgs-landsat/">AWS</a></p></li>
 <li><p><a href="https://planetarycomputer.microsoft.com/catalog">Microsoft Planetory Computer</a></p></li>
 </ul>
-<p>In this post, we will use planetory computer’s open access data catalogue to download the data. The data is stored in cloud optimised geotiff format which makes it easy to access and process.</p>
+<p>In this post, we will use planetary computer’s open access data catalogue to download the data. The data is stored in cloud optimised geotiff format which makes it easy to access and process.</p>
 </section>
 </section>
 <section id="importing-libraries" class="level2">
@@ -304,7 +304,8 @@ gtag('config', 'G-FZ5ET06LCD', { 'anonymize_ip': true});
 </section>
 <section id="downlaoding-the-image-from-planetary-computer" class="level2">
 <h2 class="anchored" data-anchor-id="downlaoding-the-image-from-planetary-computer">Downlaoding the Image from Planetary computer</h2>
-<p><img src="./pc1.webp" class="img-fluid" alt="image1"> Planetary Computer is Microsoft’s equivalent of Google Earth Engine (GEE), but with some key differences. Unlike GEE, which is primarily based on a JavaScript platform, Planetary Computer offers Python (CPU and GPU) and R notebooks for computation. This provides users with the flexibility to work in their preferred programming language for geospatial analysis.</p>
+<p><img src="./pc1.webp" class="img-fluid"></p>
+<p>Planetary Computer is Microsoft’s equivalent of Google Earth Engine (GEE), but with some key differences. Unlike GEE, which is primarily based on a JavaScript platform, Planetary Computer offers Python (CPU and GPU) and R notebooks for computation. This provides users with the flexibility to work in their preferred programming language for geospatial analysis.</p>
 <p>What sets Planetary Computer apart is its public data repository and open access API, which supports querying data using SpatioTemporal Asset Catalogs (STAC). STAC is a specification that defines a standardised format for describing geospatial data. It enables machine-readable structures for efficient data querying and downloading from the repository.</p>
 <p>If you want to learn more about STAC, you can check out their official documentation at <a href="https://chat.openai.com/c/788b55fc-5088-427c-bdcf-a5aa201c84ea#:~:text=Planetary%20Computer%20is%20Microsoft%27s,tasks%20without%20unnecessary%20complexities.">STAC</a>.</p>
 <p>In our specific case, accessing the desired image from Planetary Computer is quite straightforward. Simply specify the common access point, collection, and image ID, and you can retrieve the image for further analysis and processing. This simplified data retrieval process allows us to focus on our analysis tasks without unnecessary complexities.</p>
@@ -461,7 +462,7 @@ data type and the size after conversion is: float64, 2.41 GB</code></pre>
 <section id="read-the-data" class="level2">
 <h2 class="anchored" data-anchor-id="read-the-data">Read the data</h2>
 <p>To begin, we read the training points from a geojson file using the geopandas library. These points were manually annotated by visually inspecting the image. Our annotation process involved creating a combination of NIR, Red, and Green bands, which allows us to observe burned areas as purple in color. Admittedly, identifying pixel classes at a 30m resolution can be challenging. However, with some remote sensing knowledge and training, it becomes feasible.</p>
-<p>I would like to express my gratitude to my supervisor, Dr.&nbsp;Meghna, whose decades of experience in studying the area and expertise in fires have been invaluable. Her knowledge has guided us throughout this project. I would also like to thank my co-RA, Wajida, who has been a real savior in the annotation process. She has an exceptional talent for interpreting raw satellite images, and her contributions have been truly outstanding. A big shout-out to her!</p>
+<p>I would like to express my gratitude to my supervisor, Dr.&nbsp;Meghna, whose decades of experience in studying the area and expertise in fires have been invaluable. Her knowledge has guided us throughout this project. I would also like to thank my co-RA, Wajida, who has been a real saviour in the annotation process. She has an exceptional talent for interpreting raw satellite images, and her contributions have been truly outstanding. A big shout-out to her!</p>
 <p>In our research paper, we had approximately 12 classes, including forest, burned forest, agriculture, burned agriculture, fallen leaves, agriculture with no crop, water, shadows, and more. The aim of having these diverse classes was to differentiate between burned areas in forests and agriculture while also assessing potential confounding factors related to fire. This approach helps us build a more robust model. However, for the sake of simplicity in our current analysis, we have reclassified them into just two classes.</p>
 <section id="vector-data" class="level3">
 <h3 class="anchored" data-anchor-id="vector-data">Vector Data</h3>
@@ -593,7 +594,7 @@ Name: land_class, dtype: int64</code></pre>
 </section>
 <section id="data-prep" class="level2">
 <h2 class="anchored" data-anchor-id="data-prep">Data Prep</h2>
-<p>To create our training data, we need to gather the band values for each point in our labeled training samples and raster image. We do this by iterating through the points while traversing the raster and saving the values of each band into an array as rows.</p>
+<p>To create our training data, we need to gather the band values for each point in our labelled training samples and raster image. We do this by iterating through the points while traversing the raster and saving the values of each band into an array as rows.</p>
 <p>We use the latitude and longitude values from the points as an index to locate the corresponding pixel position and its respective row and column position in our data arrays. Once we have this information, we extract the values for each pixel across all the bands.</p>
 <p>If your labeled training samples are not points, but rather polygons or other shapes, you can rasterize them using the <code>rasterio.rasterize()</code> function and extract the band values for each polygon. More information on this process can be found in the <a href="https://rasterio.readthedocs.io/en/latest/topics/features.html#rasterizing-features">rasterio documentation</a>.</p>
 <p>We also use the label values from each point to add them to the respective label dataset. This ensures that we have the appropriate labels assigned to their corresponding data points.</p>
@@ -653,7 +654,7 @@ Name: land_class, dtype: int64</code></pre>
 <section id="indices" class="level2">
 <h2 class="anchored" data-anchor-id="indices">Indices</h2>
 <p>Indices are mathematical combinations of bands that are used to highlight a specific feature in the image.</p>
-<p>One might ask, why do we need indices if already have those bands in the dataset. Answer is that, indices provide more information and highlight a specific charectersitc of a pixel like vegetatoin,water etc. Thus, providing the algorithm with more patterns leading to improved results.</p>
+<p>One might ask, why do we need indices if already have those bands in the dataset. Answer is that, indices provide more information and highlight a specific characteristic of a pixel like vegetation,water etc. Thus, providing the algorithm with more patterns leading to improved results.</p>
 <p>We add following indices to our dataset:</p>
 <table class="table">
 <colgroup>
@@ -718,7 +719,7 @@ Name: land_class, dtype: int64</code></pre>
 </section>
 <section id="model-building" class="level2">
 <h2 class="anchored" data-anchor-id="model-building">Model building</h2>
-<p>In machine leanring models we train on a subset of data and test on the remaining data. We use the train_test_split function from sklearn to split the data into train and test sets. We use 80% of the data for training and 20% for testing. We also use stratify option to make sure that the class distribution is same in both train and test sets.</p>
+<p>In machine learning models we train on a subset of data and test on the remaining data. We use the train_test_split function from sklearn to split the data into train and test sets. We use 80% of the data for training and 20% for testing. We also use stratify option to make sure that the class distribution is same in both train and test sets.</p>
 <div class="cell" data-execution_count="12">
 <div class="sourceCode cell-code" id="cb26"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb26-1"><a href="#cb26-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.model_selection <span class="im">import</span> train_test_split</span>
 <span id="cb26-2"><a href="#cb26-2" aria-hidden="true" tabindex="-1"></a></span>
@@ -733,7 +734,7 @@ Name: land_class, dtype: int64</code></pre>
 <pre><code>((548, 11), (137, 11), (548,), (137,))</code></pre>
 </div>
 </div>
-<p>Since we don’t have equal number of samples for each class we create a dictionary that specifes the relative class distribtion for our data. This would helps the algorithm to reduce the bias. We obtain the class weights by calculating the reciprocal of the class counts. These weights will assign higher importance to minority classes during model training, helping to mitigate the effects of class imbalance.</p>
+<p>Since we don’t have equal number of samples for each class we create a dictionary that specifies the relative class distribution for our data. This would helps the algorithm to reduce the bias. We obtain the class weights by calculating the reciprocal of the class counts. These weights will assign higher importance to minority classes during model training, helping to mitigate the effects of class imbalance.</p>
 <div class="cell" data-execution_count="14">
 <div class="sourceCode cell-code" id="cb29"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb29-1"><a href="#cb29-1" aria-hidden="true" tabindex="-1"></a>labels, counts <span class="op">=</span> np.unique(y_train, return_counts <span class="op">=</span> <span class="va">True</span>)</span>
 <span id="cb29-2"><a href="#cb29-2" aria-hidden="true" tabindex="-1"></a>class_weight_dict <span class="op">=</span> <span class="bu">dict</span>(<span class="bu">zip</span>(labels, <span class="dv">1</span><span class="op">/</span>counts))</span>
@@ -800,12 +801,12 @@ Name: land_class, dtype: int64</code></pre>
 </section>
 <section id="accuracy-assement" class="level3">
 <h3 class="anchored" data-anchor-id="accuracy-assement">Accuracy Assement</h3>
-<p>We use the confusion matrix to assess the accuracy of the model. The confusion matrix is a table that is often used to describe the performance of a classification model (or “classifier”) on a set of test data for which the true values are known. The confusion matrix itself is relatively simple to understand, but the related terminology can be confusing.</p>
-<p>There is slight difference in the terms used for accuracy assesmment in both remote sensing and machine learning. In remote sensing, we use the terms producer’s and user’s accuracy. In machine learning, we use the terms precision and recall. They are defined as follows:</p>
+<p>We use the confusion matrix to assess the accuracy of the model. The confusion matrix is a table that is often used to describe the performance of a classification model on a set of test data for which the true values are known. The confusion matrix itself is relatively simple to understand, but the related terminology can be confusing.</p>
+<p>There is slight difference in the terms used for accuracy assessment in both remote sensing and machine learning. In remote sensing, we use the terms producer’s and user’s accuracy. In machine learning, we use the terms precision and recall. They are defined as follows:</p>
 <ul>
 <li>Overall accuracy: The proportion of correctly classified samples out of the total number of samples in the dataset.</li>
-<li>User’s accuracy: The proportion of correctly classified samples for a given class out of the total number of samples predicted to be in that class.</li>
-<li>Producer’s accuracy: The proportion of correctly classified samples for a given class out of the total number of samples that are actually in that class.</li>
+<li>User’s accuracy / Precision: The proportion of correctly classified samples for a given class out of the total number of samples predicted to be in that class.</li>
+<li>Producer’s accuracy / Recall: The proportion of correctly classified samples for a given class out of the total number of samples that are actually in that class.</li>
 </ul>
 <p>We will also use F1 score to assess the accuracy of the model. F1 score is the harmonic mean of precision and recall. It is a good measure of model accuracy for imbalanced datasets. It is calculated as follows:</p>
 <p>F1 = 2 * (precision * recall) / (precision + recall)</p>
@@ -870,7 +871,7 @@ F1 score for Burned class: 0.75</code></pre>
 </section>
 <section id="hyper-parameter-tuning" class="level2">
 <h2 class="anchored" data-anchor-id="hyper-parameter-tuning">Hyper parameter tuning</h2>
-<p>Before we finalise our model, we need to find the best parameters for the model. This is a process of finding the best parameters for the model that gives the best accuracy is called hyper parmeter tuning. We use <code>GridSearchCV</code> function from sklearn to find the best parameters for our model. We provide a range of values for each parameter and the GridSearchCV function will try all the combinations of the parameters and find the best parameters for our model. We use the best parameters to train our model and then use that to predict all over the image.</p>
+<p>Before we finalise our model, we need to find the best parameters for the model. This is a process of finding the best parameters for the model that gives the best accuracy is called hyper parameter tuning. We use <code>GridSearchCV</code> function from sklearn to find the best parameters for our model. We provide a range of values for each parameter and the GridSearchCV function will try all the combinations of the parameters and find the best parameters for our model. We use the best parameters to train our model and then use that to predict all over the image.</p>
 <p>GridSearchCV also allows you to cross-validate your parameters. Cross-validation is a technique for evaluating ML models by training several ML models on subsets of the available input data and evaluating them on the complementary subset of the data. In k-fold cross-validation, you split the input data into k subsets of data (also known as folds). You then iterate over k ML models. In each iteration, you use one of the k subsets as the test set (also called the validation data) and the union of the other subsets as the training set. For example, suppose you have 5000 input samples. You split the data into 5 folds of 1000 samples each. You train the ML model on 4 of the 5 folds (4000 samples) and evaluate it on the remaining 1 fold (1000 samples). You repeat this process 5 times (each time with a different fold as the evaluation dataset) and average the accuracy scores obtained in all the 5 iterations to get a final score for the ML model.</p>
 <p>In our case, we use the same parameters as before and provide a range of values for each parameter. We use 5-fold cross-validation to find the best parameters for our model. We use the best parameters to train our model and then use that to predict all over the image.</p>
 <div class="cell" data-execution_count="27">
@@ -919,7 +920,9 @@ Best F1 Score: 0.8899791686173177</code></pre>
 </section>
 <section id="predict-over-the-entire-image" class="level2">
 <h2 class="anchored" data-anchor-id="predict-over-the-entire-image">Predict over the entire image</h2>
-<p>We are going by small patches to minimise memory use and to avoid crashes. For, that we read our full image and the collect the profile data to write the metadata for the classified band. We read the bands later by specifying a small patch of the image using window function. Parallel to this we open the image to saved in the write mode and then write onto it window by window.</p>
+<p>Now that we have successfully built our model using training data from a small portion of the full image, we can proceed to predict the burned area for the entire image. To minimise memory usage and avoid crashes, we will process the image in small patches.</p>
+<p>First, we read the full image and collect the profile data to write the metadata for the classified band. Then, we read the bands later by specifying a small patch of the image using a window function. In parallel, we open the image in write mode and write onto it window by window.</p>
+<p>We have built our model based on the training data from the full image which is a small portion. Now we will use the model to predict the burned area for the entire image. We will use the predict function to predict the burned area for the entire image. We are going by small patches to minimise memory use and to avoid crashes. For, that we read our full image and the collect the profile data to write the metadata for the classified band. We read the bands later by specifying a small patch of the image using window function. Parallel to this we open the image to saved in the write mode and then write onto it window by window.</p>
 <div class="cell" data-execution_count="43">
 <div class="sourceCode cell-code" id="cb43"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb43-1"><a href="#cb43-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> datetime</span>
 <span id="cb43-2"><a href="#cb43-2" aria-hidden="true" tabindex="-1"></a></span>
