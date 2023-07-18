@@ -5,7 +5,7 @@ filters:
    - lightbox
 lightbox: auto
 about:
-  template: trestles
+  template: solana
   links:
     - icon: twitter
       text: Twitter

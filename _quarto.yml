@@ -15,12 +15,12 @@ website:
         target: _blank
         icon: file-pdf-o
         href: docs/Resume_Najah_DS.pdf
-      
-    right:
-      - icon: github
-        href: https://github.com/abdulnajah
-      - icon: linkedin
-        href: https://www.linkedin.com/in/abdulnajah
+    #   
+    # right:
+    #   - icon: github
+    #     href: https://github.com/abdulnajah
+    #   - icon: linkedin
+    #     href: https://www.linkedin.com/in/abdulnajah
   google-analytics: "G-FZ5ET06LCD"
   page-footer:
     right: |
@@ -30,7 +30,7 @@ website:
 
 format:
   html:
-    theme: cosmo
+    theme: Litera
     css: styles.css
 
 
