@@ -135,7 +135,7 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "About",
+    "title": "Najah",
     "section": "",
     "text": "I’m Najah, a data scientist specialising in the intersection of remote sensing and machine learning. With a strong background in spatial data analysis and image processing, I thrive on extracting meaningful insights from satellite imagery. From assessing urban growth patterns to detecting burned areas, I’ve applied advanced algorithms to tackle diverse projects. As a Teaching Fellow and Teaching Assistant, I’ve had the privilege of guiding and mentoring students, helping them grasp complex data science concepts. I’m actively seeking new opportunities where I can apply my skills and expertise to make a tangible impact in the field."
   },
@@ -152,5 +152,19 @@
     "title": "Projects",
     "section": "",
     "text": "Predicting Burned Areas on Landsat 5 Images using Machine Learning in Python: A Comprehensive Guide\n\n\n\nRemote Sensing\n\n\nMachine Learning\n\n\nPython\n\n\n\nThis post provides a comprehensive guide to predicting burned areas on Landsat 5 images using machine learning in Python. It covers all the steps involved in the process…\n\n\n\nNajah\n\n\nJul 16, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEstimating Urbanisation using Machine Learning and Sentinel-2 Imagery in Google Earth Engine\n\n\n\nGEE\n\n\nRemote Sensing\n\n\nMachine Learning\n\n\njavascript\n\n\n\nIn this blog post, we explore the use of machine learning techniques and Sentinel-2 satellite imagery in Google Earth Engine to estimate the extent of urbanization in Delhi.…\n\n\n\nNajah\n\n\nJun 23, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCompare Spectra App: A Simple and User-Friendly Tool for Spectral Analysis\n\n\n\nnews\n\n\ncode\n\n\napp\n\n\njavascript\n\n\n\nThe compare-spectra app is a new Earth Engine app that simplifies spectral analysis for remote sensing projects. It’s a easy a tool that makes it easy to explore and compare…\n\n\n\nNajah\n\n\nJun 20, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nData Viz gallery\n\n\n\nR\n\n\ncode\n\n\nViz\n\n\n\nA few of my data visualisations\n\n\n\nNajah\n\n\nMay 24, 2023\n\n\n\n\n\n\n\n\n\n\n\n\nSpatial Viz gallery\n\n\n\nViz\n\n\n\nA few of of my vector and raster maps\n\n\n\nNajah\n\n\nMay 24, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nData Science Slides\n\n\n\nR\n\n\ncode\n\n\nteaching\n\n\n\nMy teaching slides from the data science class\n\n\n\nNajah\n\n\nMay 17, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nData Science works at CPR\n\n\n\nR\n\n\ncode\n\n\n\n\n\n\n\nNajah\n\n\nJan 31, 2022\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "index.html#education",
+    "href": "index.html#education",
+    "title": "Finley Malloc",
+    "section": "",
+    "text": "University of California, San Diego | San Diego, CA PhD in Mathematics | Sept 2011 - June 2015\nMacalester College | St. Paul MA B.A in Economics | Sept 2007 - June 2011"
+  },
+  {
+    "objectID": "index.html#experience",
+    "href": "index.html#experience",
+    "title": "Finley Malloc",
+    "section": "",
+    "text": "Wengo Analytics | Head Data Scientist | April 2018 - present\nGeoScynce | Chief Analyst | Sept 2012 - April 2018"
   }
 ]
