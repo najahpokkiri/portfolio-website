@@ -19,12 +19,12 @@ To showcase my contributions and provide insight into my teaching approach, I ha
 
 Feel free to explore the following slides, which offer a glimpse into my instructional techniques and the impact I had on the students' understanding of data science in the context of social sciences.
 
-[**Introduction to R and R Studio**](https://d3s-ds-wk2.netlify.app/)
+[**Introduction to R and R Studio**](https://d3s-ds-wk2.netlify.app/){target="_blank"}
 
-[**Data Manipulation with `dplyr`**](https://d3s-ds-wk4.netlify.app/)
+[**Data Manipulation with `dplyr`**](https://d3s-ds-wk4.netlify.app/){target="_blank"}
 
-[**Merging Data**](https://d3s-ds-wk4.netlify.app/)
+[**Merging Data**](https://d3s-ds-wk4.netlify.app/){target="_blank"}
 
-[**Data Visualisation using `ggplot2`**](https://d3s-ds-wk5.netlify.app/)
+[**Data Visualisation using `ggplot2`**](https://d3s-ds-wk5.netlify.app/){target="_blank"}
 
-[**Predicting Housing Prices using Linear Regression**](https://d3s-ds-wk9.netlify.app/)
+[**Predicting Housing Prices using Linear Regression**](https://d3s-ds-wk9.netlify.app/){target="_blank"}
