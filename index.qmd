@@ -20,7 +20,10 @@ about:
 ---
 
 
-I am a data scientist with a keen interest in using remote sensing and machine learning to solve real-world problems. I graduated from Ashoka University in India with a liberal arts degree, and I have worked on data science projects in the domains of policy, urbanisation, climate, and sustainability. Currently, I work as a data science consultant for an earth observation start up. I've always enjoyed teaching and mentoring others, so I jumped at the chance to share my data science knowledge by getting involved as a part-time teaching assistant for the Professional and Executive Development Programme at the Ashoka Centre for Data Science and Analytics. Now I'm keeping an eye out for new opportunities to apply my geospatial data science skills!
+I am a data scientist with a keen interest in using remote sensing and machine learning to solve real-world problems. I graduated from Ashoka University in India with a liberal arts degree, and I have worked on data science projects in the domains of policy, urbanisation, climate, and sustainability.
+
+Currently, I work as a data science consultant for an earth observation start up. In addition to this role, I've always enjoyed teaching others, so I jumped at the opportunity to take on a part-time teaching assistant position with the Professional and Executive Development Programme at the Ashoka Centre for Data Science and Analytics. This allows me to share my knowledge while continuing to build my career as a data science consultant. I am also actively looking for new opportunities in the geospatial data science domain.
+
 
 <!-- --- -->
 <!-- title: "Posts" -->
