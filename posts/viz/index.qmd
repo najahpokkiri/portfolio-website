@@ -9,15 +9,22 @@ lightbox: auto
 date: "2023-05-24"
 author: "Najah"
 categories: [R, code, Viz]
+editor: 
+  markdown: 
+    wrap: 72
 ---
 
 ::: {style="display: grid;grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));grid-gap: 1em;"}
 
-![](./figs/survey-education.png){group="my-gallery"}
+![](./figs/stacked_bar_green.png){group="my-gallery"}
+
+![](./figs/VoteShare.png){group="my-gallery"}
+
+![](./figs/composition_stacked_bar_bw.png){group="my-gallery"}
 
 ![](./figs/age-barplot.png){group="my-gallery"}
 
-![](./figs/composition_stacked_bar_bw.png){group="my-gallery"}
+![](./figs/party_wise_margin.png){group="my-gallery"}
 
 ![](./figs/bar-chart-stacked-adr.png){group="my-gallery"}
 
@@ -25,11 +32,11 @@ categories: [R, code, Viz]
 
 ![](./figs/bar-chart-asset.png){group="my-gallery"}
 
-
 ![](figs/dit-bar.png){group="my-gallery"}
 
 ![](figs/age-hist.png){group="my-gallery"}
 
-![](figs/bar-chart-survey.png){group="my-gallery"}
+![](figs/line_chart.png){group="my-gallery"}
 
+![](figs/bar-chart-survey.png){group="my-gallery"}
 :::
