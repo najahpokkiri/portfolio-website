@@ -120,8 +120,10 @@ To evaluate the accuracy of the classification model, I split the dataset into t
 
 // Code snippet 5: Splitting the dataset into training and testing sets
 var split = 0.8; // 80% for training, 20% for testing
-var training = trainingData.randomColumn('split').filter(ee.Filter.lt('split', split));
-var testing = trainingData.randomColumn('split').filter(ee.Filter.gte('split', split));
+
+var trainingData = trainingData.randomColumn('split')
+var training = trainingData.filter(ee.Filter.lt('split', split));
+var testing = trainingData.filter(ee.Filter.gte('split', split));
 ```
 
 #### Training the Random Forest Classifier:
