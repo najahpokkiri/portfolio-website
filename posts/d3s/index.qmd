@@ -28,3 +28,7 @@ Feel free to explore the following slides, which offer a glimpse into my instruc
 [**Data Visualisation using `ggplot2`**](https://d3s-ds-wk5.netlify.app/){target="_blank"}
 
 [**Predicting Housing Prices using Linear Regression**](https://d3s-ds-wk9.netlify.app/){target="_blank"}
+
+
+[**Python Basics**](https://py-basics.netlify.app/){target="_blank"}
+
