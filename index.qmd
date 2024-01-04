@@ -15,7 +15,7 @@ about:
       href: https://www.linkedin.com/in/abdulnajah
     - icon: github
       text: Github
-      href: https://github.com/abdulnajah
+      href: https://github.com/najahpokkiri
 
 ---
 
