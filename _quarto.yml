@@ -11,10 +11,10 @@ website:
         href: portfolio.qmd
       - text: Publications
         href: publications.qmd
-      - text: Resume
-        target: _blank
-        icon: file-pdf-o
-        href: docs/Resume_Najah_DS.pdf
+      # - text: Resume
+      #   target: _blank
+      #   icon: file-pdf-o
+      #   href: docs/Resume_Najah_DS.pdf
     #   
     # right:
     #   - icon: github
