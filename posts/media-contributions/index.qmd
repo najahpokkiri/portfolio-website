@@ -1,0 +1,71 @@
+---
+title: "Media Contributions"
+image: "https://interaktiv-sharing.tagesspiegel.de/euroviz/ukraine_war/graphics_svelte/assets/02_static_annotated_map/mariupol/mariupol-desktop-remote-base-2x.min.png"
+filters:
+   - lightbox
+lightbox: 
+  match: auto
+format:
+  html:
+    toc: true
+    toc-depth: 2
+    number-sections: false
+    page-layout: full
+    theme: cosmo
+---
+
+# Media Contributions
+
+This page showcases selected media collaborations under the banner of vertical52 and features where my satellite data and geospatial work has supported public understanding of conflict, urban planning, and disaster impact.
+
+
+## Conflict & Crisis Damage Mapping
+
+### Ukraine Invasion  
+*Created SAR-based proxy damage maps for Ukrainian cities.*  
+🔗 [Tagesspiegel – Das unvorstellbare Ausmaß von zwei Jahren Ukraine-Invasion](https://interaktiv.tagesspiegel.de/lab/satelliten-karten-der-zerbombten-staedte-das-unvorstellbare-ausmass-von-zwei-jahren-ukraine-invasion/)
+
+### Mariupol Destruction  
+*Contributed visual and satellite-based analysis for assessing destruction in Mariupol.*  
+🔗 [Süddeutsche Zeitung – Mariupol: Ukraine, Russland und der Krieg](https://www.sueddeutsche.de/projekte/artikel/politik/mariupol-ukraine-russland-e755995/?reduced=true)
+
+### Gaza Strip – Systematic Destruction  
+*Produced damage maps and conducted visual verification for building destruction.*  
+🔗 [Stern – Wie der Küstenstreifen systematisch zerstört wurde](https://www.stern.de/politik/ausland/gaza--wie-der-kuestenstreifen-systematisch-zerstoert-wurde-35106176.html)
+
+### Gaza Anniversary: One Year On  
+*Maps and spatial analysis featured in retrospective media on one year since the Gaza war began.*  
+🔗 [NZZ – One Year of Catastrophe: Three Voices from the Gaza Strip](https://www.nzz.ch/english/hamas-has-crushed-palestinian-hopes-three-voices-from-the-gaza-strip-on-a-year-of-catastrophe-ld.1852306)
+
+### Gaza-Israel Conflict – Fires and Damage  
+*Assisted with satellite-based mapping of fire and explosion footprints during active conflict.*  
+🔗 [Handelsblatt – Satellitenbilder zeigen den Krieg in Israel und Gaza](https://www.handelsblatt.com/politik/international/krieg-in-nahost-diese-satellitenbilder-zeigen-den-krieg-in-israel-und-gaza/29443478.html)
+
+### Gaza Statistics and Damage Summary  
+*Supported statistical and spatial visuals on the Gaza conflict.*  
+🔗 [Süddeutsche Zeitung – Gaza: Zahlen des Kriegs](https://www.sueddeutsche.de/projekte/artikel/politik/gaza-krieg-zahlen-israel-hamas-tote-e457329/)
+
+### Turkey Earthquake  
+*Generated estimates of damaged buildings and regions using remote sensing.*  
+🔗 [NZZ – Turkey struggles to remove 200 million tons of quake debris](https://www.nzz.ch/english/turkey-struggles-to-remove-200-million-tons-of-quake-debris-ld.1833854)
+
+## Urban Heat & Environmental Monitoring
+
+### Impervious Surfaces – German Cities  
+*Built ML models for estimating sealed surfaces; featured in multiple regional reports.*  
+🔗 [Correctiv – Versiegelung deutscher Städte nimmt zu](https://correctiv.org/aktuelles/2024/10/01/zwischen-asphalt-und-beton-versiegelung-deutscher-staedte-nimmt-zu/)  
+🔗 [NDR – Klima in Hamburg: Temperatur hängt vom Stadtteil ab](https://www.ndr.de/nachrichten/ndrdata/Klima-in-Hamburg-Temperatur-haengt-stark-vom-Stadtteil-ab-,versiegelung102.html#:~:text=So%20viel%20st%C3%A4rker%20heizen%20sich,kleiner%2C%20etwa%20durch%20k%C3%BChlenden%20Wind)
+
+### Ahr Valley Flood & Reconstruction  
+*Mapped reconstruction progress and flood-affected areas using remote sensing.*  
+🔗 [Süddeutsche Zeitung – Wiederaufbau im Ahrtal](https://www.sueddeutsche.de/projekte/artikel/wissen/ahrtal-flut-wiederaufbau-e048908/)
+
+## Interactive Platforms
+
+### Gaza Damage Portal  
+*Developed an interactive website for visualising Gaza building damage; full-stack delivery from layers to interface.*  
+🔗 [Gaza Damage Map Portal](http://gaza-buildings.netlify.app)
+
+---
+
+_See more on my [portfolio](https://najahpokkiri.com/portfolio) or [GitHub](https://github.com/najahpokkiri)._

@@ -2,6 +2,7 @@
   {
     "listing": "/portfolio.html",
     "items": [
+      "/posts/media-contributions/index.html",
       "/posts/ml-burned-area-prediction-landsat5-python/index.html",
       "/posts/gee-urbanisation-ml-sentinel-2/index.html",
       "/posts/compare-spectra/index.html",

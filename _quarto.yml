@@ -1,16 +1,16 @@
 project:
   type: website
-
 website:
-  title: "Najah's Blog"
+  title: "myspace"
   navbar:
-    left:
+    background: light
+    right:
       - text: Home
         href: index.qmd
       - text: Portfolio
         href: portfolio.qmd
-      - text: Publications
-        href: publications.qmd
+      # - text: Publications
+      #   href: publications.qmd
       # - text: Resume
       #   target: _blank
       #   icon: file-pdf-o
@@ -24,7 +24,7 @@ website:
   google-analytics: "G-FZ5ET06LCD"
   page-footer:
     right: |
-      [Contact Najah](mailto:najah[dot]pokkiri[at]gmail[dot]com)
+      [Contact Najah](contact.qmd)
     left: |
       Made with [Quarto](https://quarto.org/)
 

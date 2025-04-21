@@ -64,5 +64,14 @@
   },
   "posts/gee-urbanisation-ml-sentinel-2/index.qmd": {
     "index.html": "93a1c382"
+  },
+  "contributions.qmd": {
+    "contributions.html": "197207b8"
+  },
+  "posts/media-contributions/index.qmd": {
+    "index.html": "f687520a"
+  },
+  "contact.qmd": {
+    "contact.html": "4a9b7feb"
   }
 }
