@@ -4,28 +4,28 @@
     "href": "posts/media-contributions/index.html",
     "title": "Media Contributions",
     "section": "",
-    "text": "This page showcases selected media collaborations under the banner of vertical52 and features where my satellite data and geospatial work has supported public understanding of conflict, urban planning, and disaster impact.\n\n\n\n\nCreated SAR-based proxy damage maps for Ukrainian cities.\n🔗 Tagesspiegel – Das unvorstellbare Ausmaß von zwei Jahren Ukraine-Invasion\n\n\n\nContributed visual and satellite-based analysis for assessing destruction in Mariupol.\n🔗 Süddeutsche Zeitung – Mariupol: Ukraine, Russland und der Krieg\n\n\n\nProduced damage maps and conducted visual verification for building destruction.\n🔗 Stern – Wie der Küstenstreifen systematisch zerstört wurde\n\n\n\nMaps and spatial analysis featured in retrospective media on one year since the Gaza war began.\n🔗 NZZ – One Year of Catastrophe: Three Voices from the Gaza Strip\n\n\n\nAssisted with satellite-based mapping of fire and explosion footprints during active conflict.\n🔗 Handelsblatt – Satellitenbilder zeigen den Krieg in Israel und Gaza\n\n\n\nSupported statistical and spatial visuals on the Gaza conflict.\n🔗 Süddeutsche Zeitung – Gaza: Zahlen des Kriegs\n\n\n\nGenerated estimates of damaged buildings and regions using remote sensing.\n🔗 NZZ – Turkey struggles to remove 200 million tons of quake debris\n\n\n\n\n\n\nBuilt ML models for estimating sealed surfaces; featured in multiple regional reports.\n🔗 Correctiv – Versiegelung deutscher Städte nimmt zu\n🔗 NDR – Klima in Hamburg: Temperatur hängt vom Stadtteil ab\n\n\n\nMapped reconstruction progress and flood-affected areas using remote sensing.\n🔗 Süddeutsche Zeitung – Wiederaufbau im Ahrtal\n\n\n\n\n\n\nDeveloped an interactive website for visualising Gaza building damage; full-stack delivery from layers to interface.\n🔗 Gaza Damage Map Portal\n\nSee more on my portfolio or GitHub."
+    "text": "This page showcases selected media collaborations under the banner of vertical52 and features where my satellite data and geospatial work has supported public understanding of conflict, urban planning, and disaster impact."
   },
   {
-    "objectID": "posts/media-contributions/index.html#damage-mapping-in-conflict-disaster-zones",
-    "href": "posts/media-contributions/index.html#damage-mapping-in-conflict-disaster-zones",
+    "objectID": "posts/media-contributions/index.html#conflict-crisis-damage-mapping",
+    "href": "posts/media-contributions/index.html#conflict-crisis-damage-mapping",
     "title": "Media Contributions",
-    "section": "",
-    "text": "Created SAR-based proxy damage maps for Ukrainian cities featured in interactive media.\n🔗 Tagesspiegel – Das unvorstellbare Ausmaß von zwei Jahren Ukraine-Invasion\n\n\n\nContributed satellite analysis for visuals on destruction and urban collapse in Mariupol.\n🔗 Süddeutsche Zeitung – Mariupol: Ukraine, Russland und der Krieg\n\n\n\nGenerated high-resolution damage maps and validated building-level destruction patterns.\n🔗 Stern – Wie der Küstenstreifen systematisch zerstört wurde\n\n\n\nMapped estimated damaged areas and buildings after the 2023 earthquake.\n🔗 NZZ – Turkey struggles to remove 200 million tons of quake debris"
+    "section": "Conflict & Crisis Damage Mapping",
+    "text": "Conflict & Crisis Damage Mapping\n\nUkraine Invasion\nCreated SAR-based proxy damage maps for Ukrainian cities.\n🔗 Tagesspiegel – Das unvorstellbare Ausmaß von zwei Jahren Ukraine-Invasion\n\n\nMariupol Destruction\nContributed visual and satellite-based analysis for assessing destruction in Mariupol.\n🔗 Süddeutsche Zeitung – Mariupol: Ukraine, Russland und der Krieg\n\n\nGaza Strip – Systematic Destruction\nProduced damage maps and conducted visual verification for building destruction.\n🔗 Stern – Wie der Küstenstreifen systematisch zerstört wurde\n\n\nGaza Anniversary: One Year On\nMaps and spatial analysis featured in retrospective media on one year since the Gaza war began.\n🔗 NZZ – One Year of Catastrophe: Three Voices from the Gaza Strip\n\n\nGaza-Israel Conflict – Fires and Damage\nAssisted with satellite-based mapping of fire and explosion footprints during active conflict.\n🔗 Handelsblatt – Satellitenbilder zeigen den Krieg in Israel und Gaza\n\n\nGaza Statistics and Damage Summary\nSupported statistical and spatial visuals on the Gaza conflict.\n🔗 Süddeutsche Zeitung – Gaza: Zahlen des Kriegs\n\n\nTurkey Earthquake\nGenerated estimates of damaged buildings and regions using remote sensing.\n🔗 NZZ – Turkey struggles to remove 200 million tons of quake debris"
   },
   {
-    "objectID": "posts/media-contributions/index.html#urban-and-environmental-monitoring",
-    "href": "posts/media-contributions/index.html#urban-and-environmental-monitoring",
+    "objectID": "posts/media-contributions/index.html#urban-heat-environmental-monitoring",
+    "href": "posts/media-contributions/index.html#urban-heat-environmental-monitoring",
     "title": "Media Contributions",
-    "section": "",
-    "text": "Developed a machine learning model to estimate impervious surface coverage in urban areas.\n🔗 Correctiv – Versiegelung deutscher Städte nimmt zu\n\n\n\nAssisted in tracking reconstruction efforts and flood impact using satellite data and change detection techniques.\n🔗 Süddeutsche Zeitung – Wiederaufbau im Ahrtal"
+    "section": "Urban Heat & Environmental Monitoring",
+    "text": "Urban Heat & Environmental Monitoring\n\nImpervious Surfaces – German Cities\nBuilt ML models for estimating sealed surfaces; featured in multiple regional reports.\n🔗 Correctiv – Versiegelung deutscher Städte nimmt zu\n🔗 NDR – Klima in Hamburg: Temperatur hängt vom Stadtteil ab\n\n\nAhr Valley Flood & Reconstruction\nMapped reconstruction progress and flood-affected areas using remote sensing.\n🔗 Süddeutsche Zeitung – Wiederaufbau im Ahrtal"
   },
   {
-    "objectID": "posts/media-contributions/index.html#platforms-and-public-tools",
-    "href": "posts/media-contributions/index.html#platforms-and-public-tools",
+    "objectID": "posts/media-contributions/index.html#interactive-platforms",
+    "href": "posts/media-contributions/index.html#interactive-platforms",
     "title": "Media Contributions",
-    "section": "",
-    "text": "Developed an interactive mapping platform to visualise Gaza damage data. Built end-to-end layers, backend processing, and UI.\n🔗 Gaza Damage Portal\n\nSee more on my portfolio or GitHub."
+    "section": "Interactive Platforms",
+    "text": "Interactive Platforms\n\nGaza Damage Portal\nDeveloped an interactive website for visualising Gaza building damage; full-stack delivery from layers to interface.\n🔗 Gaza Damage Map Portal\n\nSee more on my portfolio or GitHub."
   },
   {
     "objectID": "index.html",
@@ -40,6 +40,20 @@
     "title": "Projects",
     "section": "",
     "text": "Media Contributions\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPredicting Burned Areas on Landsat 5 Images using Machine Learning in Python: A Comprehensive Guide\n\n\n\nRemote Sensing\n\nMachine Learning\n\nPython\n\n\n\nThis post provides a comprehensive guide to predicting burned areas on Landsat 5 images using machine learning in Python. It covers all the steps involved in the process…\n\n\n\nNajah\n\n\nJul 16, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\nEstimating Urbanisation using Machine Learning and Sentinel-2 Imagery in Google Earth Engine\n\n\n\nGEE\n\nRemote Sensing\n\nMachine Learning\n\njavascript\n\n\n\nIn this blog post, we explore the use of machine learning techniques and Sentinel-2 satellite imagery in Google Earth Engine to estimate the extent of urbanization in Delhi.…\n\n\n\nNajah\n\n\nJun 23, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\nCompare Spectra App: A Simple and User-Friendly Tool for Spectral Analysis\n\n\n\nnews\n\ncode\n\napp\n\njavascript\n\n\n\nThe compare-spectra app is a new Earth Engine app that simplifies spectral analysis for remote sensing projects. It’s a easy a tool that makes it easy to explore and compare…\n\n\n\nNajah\n\n\nJun 20, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\nData Viz gallery\n\n\n\nR\n\ncode\n\nViz\n\n\n\nA few of my data visualisations\n\n\n\nNajah\n\n\nMay 24, 2023\n\n\n\n\n\n\n\n\n\n\n\nSpatial Viz gallery\n\n\n\nViz\n\n\n\nA few of of my vector and raster maps\n\n\n\nNajah\n\n\nMay 24, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\nData Science Slides\n\n\n\nR\n\ncode\n\nteaching\n\n\n\nMy teaching slides from the data science class\n\n\n\nNajah\n\n\nMay 17, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\nData Science works at CPR\n\n\n\nR\n\ncode\n\n\n\n\n\n\n\nNajah\n\n\nJan 31, 2022\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact",
+    "section": "",
+    "text": "Please use the form below to send me a message.\nI’ll try to get back to you as soon as possible.\n\n\nName \nEmail \nMessage\n\n\n\nSend"
+  },
+  {
+    "objectID": "contact.html#get-in-touch",
+    "href": "contact.html#get-in-touch",
+    "title": "Contact",
+    "section": "",
+    "text": "Please use the form below to send me a message.\nI’ll try to get back to you as soon as possible.\n\n\nName \nEmail \nMessage\n\n\n\nSend"
   },
   {
     "objectID": "publications.html",
@@ -180,47 +194,5 @@
     "title": "Compare Spectra App: A Simple and User-Friendly Tool for Spectral Analysis",
     "section": "",
     "text": "TL;DR:\nI’ve developed a new Earth Engine app for spectral analysis. It’s simple, user-friendly, and free to use. Check it out!\nI am excited to share a new Earth Engine app that I’ve developed, designed to simplify spectral analysis for remote sensing projects. It’s called the compare-spectra app, and it’s a simple and user-friendly tool that makes it easy to explore and compare spectra without the need for extensive coding or expensive tools.\nThe compare-spectra app allows you to select your study area, draw regions of interest (ROIs), and generate comparative line charts that visualize the spectra of the selected areas. You can also download the generated charts as images or export the spectral data as a CSV file.\nThe app is a web-based application, so you can use it without the need to install any software. Simply open the app in your browser and follow the instructions.\nHere are some of the features of the compare-spectra app:\n\nSimple and user-friendly interface: The app is easy to use, even if you’re not familiar with Earth Engine.\nNo coding required: You don’t need to know any code to use the app. Cost-effective: The app is free to use.\nFlexible and customizable: You can customize the app to fit your specific needs.\nOpen source: The app is open source, so you can contribute to its development.\n\nIf you’re interested in trying out the compare-spectra app, you can visit the app link. I’m looking for feedback and suggestions on how to improve the app, so please feel free to leave your feedback in the comments section below.\nI hope you find the compare-spectra app useful. If you have any questions, please don’t hesitate to contact me.\nCheers!\nHere’s the demo on how to use the app :"
-  },
-  {
-    "objectID": "contact.html",
-    "href": "contact.html",
-    "title": "Contact",
-    "section": "",
-    "text": "Please use the form below to send me a message.\nI’ll try to get back to you as soon as possible.\n\n\nName \nEmail \nMessage\n\n\n\nSend"
-  },
-  {
-    "objectID": "contact.html#get-in-touch",
-    "href": "contact.html#get-in-touch",
-    "title": "Contact",
-    "section": "",
-    "text": "Please use the form below to send me a message.\nI’ll try to get back to you as soon as possible.\n\n\nName \nEmail \nMessage\n\n\n\nSend"
-  },
-  {
-    "objectID": "posts/media-contributions/index.html#this-page-showcases-selected-media-collaborations-under-the-banner-of-vertical52-and-features-where-my-satellite-data-and-geospatial-work-has-supported-public-understanding-of-conflict-urban-planning-and-disaster-impact.",
-    "href": "posts/media-contributions/index.html#this-page-showcases-selected-media-collaborations-under-the-banner-of-vertical52-and-features-where-my-satellite-data-and-geospatial-work-has-supported-public-understanding-of-conflict-urban-planning-and-disaster-impact.",
-    "title": "Media Contributions",
-    "section": "",
-    "text": "title: “Media Contributions” format: html: toc: true toc-depth: 2 number-sections: false page-layout: full theme: cosmo —"
-  },
-  {
-    "objectID": "posts/media-contributions/index.html#conflict-crisis-damage-mapping",
-    "href": "posts/media-contributions/index.html#conflict-crisis-damage-mapping",
-    "title": "Media Contributions",
-    "section": "",
-    "text": "Created SAR-based proxy damage maps for Ukrainian cities.\n🔗 Tagesspiegel – Das unvorstellbare Ausmaß von zwei Jahren Ukraine-Invasion\n\n\n\nContributed visual and satellite-based analysis for assessing destruction in Mariupol.\n🔗 Süddeutsche Zeitung – Mariupol: Ukraine, Russland und der Krieg\n\n\n\nProduced damage maps and conducted visual verification for building destruction.\n🔗 Stern – Wie der Küstenstreifen systematisch zerstört wurde\n\n\n\nMaps and spatial analysis featured in retrospective media on one year since the Gaza war began.\n🔗 NZZ – One Year of Catastrophe: Three Voices from the Gaza Strip\n\n\n\nAssisted with satellite-based mapping of fire and explosion footprints during active conflict.\n🔗 Handelsblatt – Satellitenbilder zeigen den Krieg in Israel und Gaza\n\n\n\nSupported statistical and spatial visuals on the Gaza conflict.\n🔗 Süddeutsche Zeitung – Gaza: Zahlen des Kriegs\n\n\n\nGenerated estimates of damaged buildings and regions using remote sensing.\n🔗 NZZ – Turkey struggles to remove 200 million tons of quake debris"
-  },
-  {
-    "objectID": "posts/media-contributions/index.html#urban-heat-environmental-monitoring",
-    "href": "posts/media-contributions/index.html#urban-heat-environmental-monitoring",
-    "title": "Media Contributions",
-    "section": "",
-    "text": "Built ML models for estimating sealed surfaces; featured in multiple regional reports.\n🔗 Correctiv – Versiegelung deutscher Städte nimmt zu\n🔗 NDR – Klima in Hamburg: Temperatur hängt vom Stadtteil ab\n\n\n\nMapped reconstruction progress and flood-affected areas using remote sensing.\n🔗 Süddeutsche Zeitung – Wiederaufbau im Ahrtal"
-  },
-  {
-    "objectID": "posts/media-contributions/index.html#interactive-platforms",
-    "href": "posts/media-contributions/index.html#interactive-platforms",
-    "title": "Media Contributions",
-    "section": "",
-    "text": "Developed an interactive website for visualising Gaza building damage; full-stack delivery from layers to interface.\n🔗 Gaza Damage Map Portal\n\nSee more on my portfolio or GitHub."
   }
 ]
