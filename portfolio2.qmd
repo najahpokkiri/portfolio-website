@@ -1,0 +1,27 @@
+---
+title: "Portfolio"
+page-layout: full
+title-block-banner: true
+format:
+  html:
+    toc: false
+listing:
+  contents: posts
+  type: grid
+  sort: "date desc"
+  categories: true
+  filter-ui: true
+---
+
+<!-- ---
+title: "Projects"
+listing:
+  contents: posts
+  sort: "date desc"
+  type: grid
+  categories: true
+  sort-ui: false
+  filter-ui: false
+page-layout: full
+title-block-banner: true
+--- -->

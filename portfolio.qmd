@@ -1,12 +1,174 @@
 ---
-title: "Projects"
-listing:
-  contents: posts
-  sort: "date desc"
-  type: grid
-  categories: true
-  sort-ui: false
-  filter-ui: false
-page-layout: full
-title-block-banner: true
+title: "Portfolio"
+image: "https://interaktiv-sharing.tagesspiegel.de/euroviz/ukraine_war/graphics_svelte/assets/02_static_annotated_map/mariupol/mariupol-desktop-remote-base-2x.min.png"
+filters:
+   - lightbox
+lightbox: 
+  match: auto
+format:
+  html:
+    toc: false
+    toc-depth: 2
+    number-sections: false
+    page-layout: full
+    theme: cosmo
 ---
+
+
+## Conflict & Crisis Damage Mapping
+
+:::: {layout="[50, 50]"}
+
+::: {#first-column}
+<img src="posts/media-contributions/images/tg-homepage.png" style="height: 250px; width: 100%; object-fit: cover;">
+
+**Ukraine Conflict Damage Mapping**  
+Contributed SAR-based proxy damage maps and visual analysis of destruction in Ukrainian cities including Mariupol.
+
+- [🔗 Tagesspiegel – Ukraine Invasion Overview](https://interaktiv.tagesspiegel.de/lab/satelliten-karten-der-zerbombten-staedte-das-unvorstellbare-ausmass-von-zwei-jahren-ukraine-invasion/)
+- [🔗 Süddeutsche Zeitung – Mariupol Destruction](https://www.sueddeutsche.de/projekte/artikel/politik/mariupol-ukraine-russland-e755995/?reduced=true)
+- [🔗 Urban Journalism – Ukraine Destruction](https://urbanjournalism.org/ukraine-destruction/)
+- [🔗 iStories](https://istories.media/stories/2024/02/22/sledi-voini-iz-kosmosa/)
+:::
+
+::: {#second-column}
+<img src="posts/media-contributions/images/gaza-stern.png" style="height: 250px; width: 100%; object-fit: cover;">
+
+**Gaza Conflict Damage Mapping**  
+Mapped building-level destruction, verified conflict damage, and supported media analysis with satellite data.
+
+- [🔗 Stern – Systematic Destruction in Gaza](https://www.stern.de/politik/ausland/gaza--wie-der-kuestenstreifen-systematisch-zerstoert-wurde-35106176.html)
+- [🔗 Süddeutsche Zeitung – Visual Destruction Summary](https://www.sueddeutsche.de/projekte/artikel/politik/gaza-israel-krieg-zerstoerung-bilder-e096917/)
+- [🔗 Handelsblatt – Satellite Imagery from Gaza Conflict](https://www.handelsblatt.com/politik/international/krieg-in-nahost-diese-satellitenbilder-zeigen-den-krieg-in-israel-und-gaza/29443478.html)
+- [🔗 NZZ – Gaza Anniversary Retrospective](https://www.nzz.ch/english/hamas-has-crushed-palestinian-hopes-three-voices-from-the-gaza-strip-on-a-year-of-catastrophe-ld.1852306)
+:::
+
+::::
+
+
+
+## 🌍 Geospatial ML & Tools
+
+:::: {layout="[33, 33, 33]"}
+
+::: {#first-column}
+<a href="posts/ml-burned-area-prediction-landsat5-python/">
+<img src="posts/ml-burned-area-prediction-landsat5-python/fire_parnith.webp" style="height: 250px; width: 100%; object-fit: cover;">
+</a>
+**Predicting Burned Areas on Landsat 5 Images using Machine Learning in Python**  
+This post provides a comprehensive guide to predicting burned areas on Landsat 5 images using machine learning in Python.
+:::
+
+::: {#second-column}
+<a href="posts/gee-urbanisation-ml-sentinel-2/">
+<img src="posts/gee-urbanisation-ml-sentinel-2/delhi_aerial.webp" style="height: 250px; width: 100%; object-fit: cover;">
+</a>
+**Estimating Urbanisation using Machine Learning and Sentinel-2 Imagery in Google Earth Engine**  
+...estimate the extent of urbanization in Delhi using ML + remote sensing...
+:::
+
+::: {#third-column}
+<a href="https://www.nzz.ch/english/turkey-struggles-to-remove-200-million-tons-of-quake-debris-ld.1833854" target="_blank">
+<img src="posts/media-contributions/images/sz-eq.png" style="height: 250px; width: 100%; object-fit: cover;">
+</a>
+**Turkey Earthquake Damage Mapping**  
+Mapped estimated building damage using remote sensing (NZZ).
+:::
+
+::::
+
+:::: {layout="[33, 33, 33]"}
+
+::: {#first-column}
+<a href="https://ee-najah.projects.earthengine.app/view/rhine-floods-de" target="_blank">
+<img src="posts/images/flood-app.png" style="height: 250px; width: 100%; object-fit: cover;">
+</a>
+**Rhine Flood Dashboard**  
+GEE-powered tool to visualize flooding and extent change.
+:::
+
+::: {#second-column}
+<a href="posts/compare-spectra/">
+<img src="posts/compare-spectra/app_icon.webp" style="height: 250px; width: 100%; object-fit: cover;">
+</a>
+**Compare Spectra App: A Simple and User-Friendly Tool for Spectral Analysis**  
+The compare-spectra app simplifies spectral analysis for remote sensing projects.
+:::
+
+::: {#third-column}
+<a href="posts/spatial-viz/">
+<img src="posts/spatial-viz/figs/ndvi.png" style="height: 250px; width: 100%; object-fit: cover;">
+</a>
+**Spatial Viz gallery**  
+A few of of my vector and raster maps
+:::
+
+
+::::
+<!-- ::::
+
+:::: {layout="[33, 33, 33]"}
+
+
+
+::: {#second-column}
+<a href="https://github.com/najahpokkiri/biomass-dl" target="_blank">
+<img src="posts/biomass-dl/biomass-model.jpg" style="height: 250px; width: 100%; object-fit: cover;">
+</a>
+**Biomass Estimation (DL)**  
+ResNet/EfficientNet-based AGB predictions for India.
+:::
+
+::: {#third-column}
+<a href="https://github.com/najahpokkiri/soc-prediction" target="_blank">
+<img src="posts/soc-ml/soc-prediction.jpg" style="height: 250px; width: 100%; object-fit: cover;">
+</a>
+**Soil Organic Carbon Prediction**  
+ML-based SOC mapping using EU + Indian data layers.
+:::
+
+:::: -->
+
+## 🧭 Data, Visuals & Public Impact
+
+:::: {layout="[33, 33, 33]"}
+
+::: {#first-column}
+<a href="posts/d3s/">
+<img src="posts/d3s/d3s-slide-ss.webp" style="height: 250px; width: 100%; object-fit: cover;">
+</a>
+**Data Science Slides**  
+My teaching slides from the data science class.
+:::
+
+::: {#second-column}
+<a href="posts/viz/">
+<img src="posts/viz/figs/bar-chart-survey.png" style="height: 250px; width: 100%; object-fit: cover;">
+</a>
+**Data Viz gallery**  
+A few of my data visualisations
+:::
+
+::: {#third-column}
+<a href="posts/cpr-pol-connect/">
+<img src="posts/cpr-pol-connect/ss_web.webp" style="height: 250px; width: 100%; object-fit: cover;">
+</a>
+**Data Science works at CPR**
+:::
+
+::::
+<!-- 
+:::: {layout="[33, 33, 33]"}
+
+::: {#first-column}
+<a href="posts/spatial-viz/">
+<img src="posts/spatial-viz/figs/ndvi.png"  style="height: 250px; width: 100%; object-fit: cover;">
+</a>
+**Spatial Viz gallery**  
+A few of of my vector and raster maps
+:::
+
+
+:::
+
+:::: -->

@@ -4,28 +4,28 @@
     "href": "posts/media-contributions/index.html",
     "title": "Media Contributions",
     "section": "",
-    "text": "This page showcases selected media collaborations under the banner of vertical52 and features where my satellite data and geospatial work has supported public understanding of conflict, urban planning, and disaster impact."
+    "text": "Ukraine Conflict Damage Mapping\nContributed SAR-based proxy damage maps and visual analysis of destruction in Ukrainian cities including Mariupol.\n\n🔗 Tagesspiegel – Ukraine Invasion Overview\n🔗 Süddeutsche Zeitung – Mariupol Destruction\n🔗 Urban Journalism – Ukraine Destruction\n🔗 iStories\n\n\n\n\nGaza Conflict Damage Mapping\nMapped building-level destruction, verified conflict damage, and supported media analysis with satellite data.\n\n🔗 Stern – Systematic Destruction in Gaza\n🔗 Süddeutsche Zeitung – Visual Destruction Summary\n🔗 Handelsblatt – Satellite Imagery from Gaza Conflict\n🔗 NZZ – Gaza Anniversary Retrospective"
   },
   {
     "objectID": "posts/media-contributions/index.html#conflict-crisis-damage-mapping",
     "href": "posts/media-contributions/index.html#conflict-crisis-damage-mapping",
     "title": "Media Contributions",
-    "section": "Conflict & Crisis Damage Mapping",
-    "text": "Conflict & Crisis Damage Mapping\n\nUkraine Invasion\nCreated SAR-based proxy damage maps for Ukrainian cities.\n🔗 Tagesspiegel – Das unvorstellbare Ausmaß von zwei Jahren Ukraine-Invasion\n\n\nMariupol Destruction\nContributed visual and satellite-based analysis for assessing destruction in Mariupol.\n🔗 Süddeutsche Zeitung – Mariupol: Ukraine, Russland und der Krieg\n\n\nGaza Strip – Systematic Destruction\nProduced damage maps and conducted visual verification for building destruction.\n🔗 Stern – Wie der Küstenstreifen systematisch zerstört wurde\n\n\nGaza Anniversary: One Year On\nMaps and spatial analysis featured in retrospective media on one year since the Gaza war began.\n🔗 NZZ – One Year of Catastrophe: Three Voices from the Gaza Strip\n\n\nGaza-Israel Conflict – Fires and Damage\nAssisted with satellite-based mapping of fire and explosion footprints during active conflict.\n🔗 Handelsblatt – Satellitenbilder zeigen den Krieg in Israel und Gaza\n\n\nGaza Statistics and Damage Summary\nSupported statistical and spatial visuals on the Gaza conflict.\n🔗 Süddeutsche Zeitung – Gaza: Zahlen des Kriegs\n\n\nTurkey Earthquake\nGenerated estimates of damaged buildings and regions using remote sensing.\n🔗 NZZ – Turkey struggles to remove 200 million tons of quake debris"
+    "section": "",
+    "text": "Ukraine Conflict Damage Mapping\nContributed SAR-based proxy damage maps and visual analysis of destruction in Ukrainian cities including Mariupol.\n\n🔗 Tagesspiegel – Ukraine Invasion Overview\n🔗 Süddeutsche Zeitung – Mariupol Destruction\n🔗 Urban Journalism – Ukraine Destruction\n🔗 iStories\n\n\n\n\nGaza Conflict Damage Mapping\nMapped building-level destruction, verified conflict damage, and supported media analysis with satellite data.\n\n🔗 Stern – Systematic Destruction in Gaza\n🔗 Süddeutsche Zeitung – Visual Destruction Summary\n🔗 Handelsblatt – Satellite Imagery from Gaza Conflict\n🔗 NZZ – Gaza Anniversary Retrospective"
   },
   {
     "objectID": "posts/media-contributions/index.html#urban-heat-environmental-monitoring",
     "href": "posts/media-contributions/index.html#urban-heat-environmental-monitoring",
-    "title": "Media Contributions",
+    "title": "myspace",
     "section": "Urban Heat & Environmental Monitoring",
-    "text": "Urban Heat & Environmental Monitoring\n\nImpervious Surfaces – German Cities\nBuilt ML models for estimating sealed surfaces; featured in multiple regional reports.\n🔗 Correctiv – Versiegelung deutscher Städte nimmt zu\n🔗 NDR – Klima in Hamburg: Temperatur hängt vom Stadtteil ab\n\n\nAhr Valley Flood & Reconstruction\nMapped reconstruction progress and flood-affected areas using remote sensing.\n🔗 Süddeutsche Zeitung – Wiederaufbau im Ahrtal"
+    "text": "Urban Heat & Environmental Monitoring\n\n\n\n\nUrban Surface Sealing\nBuilt ML pipelines to detect impervious surfaces in German cities for Correctiv & NDR.\n🔗 Correctiv – Versiegelung\n🔗 NDR – Hamburg Climate\n\n\n\nAhr Valley Flood & Reconstruction\nMapped reconstruction and flood zones using EO data, featured in Süddeutsche Zeitung.\n🔗 SZ – Wiederaufbau im Ahrtal"
   },
   {
     "objectID": "posts/media-contributions/index.html#interactive-platforms",
     "href": "posts/media-contributions/index.html#interactive-platforms",
-    "title": "Media Contributions",
+    "title": "myspace",
     "section": "Interactive Platforms",
-    "text": "Interactive Platforms\n\nGaza Damage Portal\nDeveloped an interactive website for visualising Gaza building damage; full-stack delivery from layers to interface.\n🔗 Gaza Damage Map Portal\n\nSee more on my portfolio or GitHub."
+    "text": "Interactive Platforms\n\n\n\n\nGaza Damage Portal\nDeveloped a full-stack interactive portal to visualize building-level damage in Gaza.\n🔗 Gaza Damage Portal"
   },
   {
     "objectID": "index.html",
@@ -37,9 +37,9 @@
   {
     "objectID": "portfolio.html",
     "href": "portfolio.html",
-    "title": "Projects",
+    "title": "Portfolio",
     "section": "",
-    "text": "Media Contributions\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPredicting Burned Areas on Landsat 5 Images using Machine Learning in Python: A Comprehensive Guide\n\n\n\nRemote Sensing\n\nMachine Learning\n\nPython\n\n\n\nThis post provides a comprehensive guide to predicting burned areas on Landsat 5 images using machine learning in Python. It covers all the steps involved in the process…\n\n\n\nNajah\n\n\nJul 16, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\nEstimating Urbanisation using Machine Learning and Sentinel-2 Imagery in Google Earth Engine\n\n\n\nGEE\n\nRemote Sensing\n\nMachine Learning\n\njavascript\n\n\n\nIn this blog post, we explore the use of machine learning techniques and Sentinel-2 satellite imagery in Google Earth Engine to estimate the extent of urbanization in Delhi.…\n\n\n\nNajah\n\n\nJun 23, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\nCompare Spectra App: A Simple and User-Friendly Tool for Spectral Analysis\n\n\n\nnews\n\ncode\n\napp\n\njavascript\n\n\n\nThe compare-spectra app is a new Earth Engine app that simplifies spectral analysis for remote sensing projects. It’s a easy a tool that makes it easy to explore and compare…\n\n\n\nNajah\n\n\nJun 20, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\nData Viz gallery\n\n\n\nR\n\ncode\n\nViz\n\n\n\nA few of my data visualisations\n\n\n\nNajah\n\n\nMay 24, 2023\n\n\n\n\n\n\n\n\n\n\n\nSpatial Viz gallery\n\n\n\nViz\n\n\n\nA few of of my vector and raster maps\n\n\n\nNajah\n\n\nMay 24, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\nData Science Slides\n\n\n\nR\n\ncode\n\nteaching\n\n\n\nMy teaching slides from the data science class\n\n\n\nNajah\n\n\nMay 17, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\nData Science works at CPR\n\n\n\nR\n\ncode\n\n\n\n\n\n\n\nNajah\n\n\nJan 31, 2022\n\n\n\n\n\n\nNo matching items"
+    "text": "Ukraine Conflict Damage Mapping\nContributed SAR-based proxy damage maps and visual analysis of destruction in Ukrainian cities including Mariupol.\n\n🔗 Tagesspiegel – Ukraine Invasion Overview\n🔗 Süddeutsche Zeitung – Mariupol Destruction\n🔗 Urban Journalism – Ukraine Destruction\n🔗 iStories\n\n\n\n\nGaza Conflict Damage Mapping\nMapped building-level destruction, verified conflict damage, and supported media analysis with satellite data.\n\n🔗 Stern – Systematic Destruction in Gaza\n🔗 Süddeutsche Zeitung – Visual Destruction Summary\n🔗 Handelsblatt – Satellite Imagery from Gaza Conflict\n🔗 NZZ – Gaza Anniversary Retrospective"
   },
   {
     "objectID": "contact.html",
@@ -194,5 +194,166 @@
     "title": "Compare Spectra App: A Simple and User-Friendly Tool for Spectral Analysis",
     "section": "",
     "text": "TL;DR:\nI’ve developed a new Earth Engine app for spectral analysis. It’s simple, user-friendly, and free to use. Check it out!\nI am excited to share a new Earth Engine app that I’ve developed, designed to simplify spectral analysis for remote sensing projects. It’s called the compare-spectra app, and it’s a simple and user-friendly tool that makes it easy to explore and compare spectra without the need for extensive coding or expensive tools.\nThe compare-spectra app allows you to select your study area, draw regions of interest (ROIs), and generate comparative line charts that visualize the spectra of the selected areas. You can also download the generated charts as images or export the spectral data as a CSV file.\nThe app is a web-based application, so you can use it without the need to install any software. Simply open the app in your browser and follow the instructions.\nHere are some of the features of the compare-spectra app:\n\nSimple and user-friendly interface: The app is easy to use, even if you’re not familiar with Earth Engine.\nNo coding required: You don’t need to know any code to use the app. Cost-effective: The app is free to use.\nFlexible and customizable: You can customize the app to fit your specific needs.\nOpen source: The app is open source, so you can contribute to its development.\n\nIf you’re interested in trying out the compare-spectra app, you can visit the app link. I’m looking for feedback and suggestions on how to improve the app, so please feel free to leave your feedback in the comments section below.\nI hope you find the compare-spectra app useful. If you have any questions, please don’t hesitate to contact me.\nCheers!\nHere’s the demo on how to use the app :"
+  },
+  {
+    "objectID": "posts/media-contributions/index.html#climate-risk",
+    "href": "posts/media-contributions/index.html#climate-risk",
+    "title": "myspace",
+    "section": "Climate Risk",
+    "text": "Climate Risk\n\n\n\n\nGlobal Climate Risk Mapping\nSupported spatial analysis of climate risk using EO and historical weather data.\nUsed in internal reports and risk dashboards.\n\n\n\nClimate Vulnerability in India\nMapped climate hazard and exposure using census, LiDAR, and satellite inputs.\nContributed to regional adaptation planning.\n\n\n\n–&gt;"
+  },
+  {
+    "objectID": "portfolio.html#ml-data-science-projects",
+    "href": "portfolio.html#ml-data-science-projects",
+    "title": "Portfolio",
+    "section": "🤖 ML & Data-Science Projects",
+    "text": "🤖 ML & Data-Science Projects\n\ncontents: posts/ml type: grid sort: “date desc”"
+  },
+  {
+    "objectID": "portfolio.html#teaching-policy-work",
+    "href": "portfolio.html#teaching-policy-work",
+    "title": "Portfolio",
+    "section": "🎓 Teaching & Policy Work",
+    "text": "🎓 Teaching & Policy Work\n\ncontents: posts/policy type: grid sort: “date desc”"
+  },
+  {
+    "objectID": "portfolio.html#geospatial-satellite-projects",
+    "href": "portfolio.html#geospatial-satellite-projects",
+    "title": "Portfolio",
+    "section": "",
+    "text": "contents: posts/geospatial type: grid sort: “date desc”"
+  },
+  {
+    "objectID": "posts/geospatial/gee-urbanisation-ml-sentinel-2/index.html",
+    "href": "posts/geospatial/gee-urbanisation-ml-sentinel-2/index.html",
+    "title": "Estimating Urbanisation using Machine Learning and Sentinel-2 Imagery in Google Earth Engine",
+    "section": "",
+    "text": "In this post, I am sharing a project I completed as part of my machine learning course at Ashoka University. The objective was to leverage machine learning to understand the extent of urbanisation in the city of Delhi. Using the concept of built-up areas as a proxy for urban areas, I applied Random Forest machine learning algorithm to estimate the built-up area in Delhi."
+  },
+  {
+    "objectID": "posts/geospatial/gee-urbanisation-ml-sentinel-2/index.html#introduction",
+    "href": "posts/geospatial/gee-urbanisation-ml-sentinel-2/index.html#introduction",
+    "title": "Estimating Urbanisation using Machine Learning and Sentinel-2 Imagery in Google Earth Engine",
+    "section": "",
+    "text": "In this post, I am sharing a project I completed as part of my machine learning course at Ashoka University. The objective was to leverage machine learning to understand the extent of urbanisation in the city of Delhi. Using the concept of built-up areas as a proxy for urban areas, I applied Random Forest machine learning algorithm to estimate the built-up area in Delhi."
+  },
+  {
+    "objectID": "posts/geospatial/gee-urbanisation-ml-sentinel-2/index.html#methodology",
+    "href": "posts/geospatial/gee-urbanisation-ml-sentinel-2/index.html#methodology",
+    "title": "Estimating Urbanisation using Machine Learning and Sentinel-2 Imagery in Google Earth Engine",
+    "section": "Methodology:",
+    "text": "Methodology:\n\nObtaining Delhi Boundary Geometry:\nTo initiate the project, I obtained the precise boundary geometry of Delhi using the FAO/GAUL/2015/level2 dataset. This enabled me to focus specifically on the area of interest and streamline the analysis.\n\nvar delhi = ee.FeatureCollection(\"FAO/GAUL/2015/level2\").filter(ee.Filter.eq('ADM2_NAME','Delhi')).geometry();\n\n\n\n\nFiltering Sentinel-2 Imagery:\nNext, I accessed the Sentinel-2 satellite imagery from the COPERNICUS/S2_SR image collection. To ensure high-quality data, I filtered the imagery based on a cloud cover percentage of less than 30% and a date range of January 1, 2019, to December 31, 2019. Additionally, I restricted the imagery to be within the bounds of Delhi, using the previously acquired boundary geometry. Subsequently, I selected the relevant spectral bands (B4, B3, B2) for the analysis.\n// Code snippet 1: Filtering Sentinel-2 imagery\nvar sentinel2 = ee.ImageCollection(\"COPERNICUS/S2_SR\")\n  .filterBounds(delhi)\n  .filterDate(\"2019-01-01\", \"2019-12-31\")\n  .filter(ee.Filter.lt(\"CLOUDY_PIXEL_PERCENTAGE\", 30))\n  .select([\"B4\", \"B3\", \"B2\"]);\n\n\nCreating the Composite Image:\nAfterwards, I created a composite image by taking the median of the filtered images and clipped it to the boundary of Delhi. The resulting composite image provided a comprehensive representation of the land cover in the region.\nI then created a composite image by taking the median of the filtered images and clipped it to the boundary of Delhi. This composite image provided a comprehensive representation of the land cover in the region.\n// Code snippet 2: Creating the composite image\nvar composite = sentinel2.median().clip(delhi);\n\n\nVisualising the Composite Image\nTo visualise the composite image, I applied a colour visualisation scheme using the red, green, and blue bands. This enhanced the image and provided valuable insights into the distribution of different land cover types within Delhi.\n\n// Code Snippet: Visualising the Composite Image\n\n// Apply colour visualization parameters\nvar visualizationParams = {\n  bands: ['B4', 'B3', 'B2'],\n  min: 0.0,\n  max: 3000\n};\n\n// Display the composite image\n\nMap.addLayer(compositeImage, visualizationParams, 'Composite Image');\nComposite Image\n\n\n\n\n\n\n\nComposite image of Delhi\n\n\n\n\nLand Cover Classification Training Data:\nI manually annotated approximately 500 urban and non-urban points across Delhi to create the training data. I uploaded them to GEE assets as feature collection. I utilised that feature collection consisting of urban and non-urban points. Merging these collections provided a comprehensive set of training data for the classification process.\n// Code Snippet: Utilising the Feature Collection for Classification\n// Load the feature collections of urban and non-urban points\nvar urbanPoints = ee.FeatureCollection(\"projects/ee-najah/assets/urban_points\");\nvar nonUrbanPoints = ee.FeatureCollection(\"projects/ee-najah/assets/non_urban_points\");\n\n// Merge the urban and non-urban points collections\nvar trainingData = urbanPoints.merge(nonUrbanPoints);\n\n\nOverlaying Training Points and Extracting Training Data:\nNext, I overlayed the training points on the composite image to extract the necessary training data. This involved sampling regions within a specified scale of 10 units using the “sampleRegions” function, which resulted in the training data consisting of land cover labels associated with each region.\n// Code Snippet: Overlaying Training Points on the Composite Image\n// Sample regions within a specified scale of 10 units\nvar trainingData = compositeImage.sampleRegions({\n  collection: trainingData,\n  scale: 10,\n  properties: ['land_cover'],\n});\n\n\nSplitting the Dataset:\nTo evaluate the accuracy of the classification model, I split the dataset into training and testing sets. The training set was used to train the machine learning model, while the testing set was utilized to assess the model’s performance.\n\n\n// Code snippet 5: Splitting the dataset into training and testing sets\nvar split = 0.8; // 80% for training, 20% for testing\n\nvar trainingData = trainingData.randomColumn('split')\nvar training = trainingData.filter(ee.Filter.lt('split', split));\nvar testing = trainingData.filter(ee.Filter.gte('split', split));\n\n\nTraining the Random Forest Classifier:\nUsing the training data, I trained a random forest classifier with the “smileRandomForest” algorithm provided by Earth Engine. The classifier was trained with 50 trees, and the land cover property was used as the target class. The input properties for classification were derived from the band names of the composite image.\n// Code Snippet: Training the Random Forest Classifier\n\n// Train a random forest classifier with 500 trees\nvar classifier = ee.Classifier.smileRandomForest(500)\n  .train({\n    features: training,\n    classProperty: 'land_cover',\n    inputProperties: ['B4', 'B3', 'B2']\n  });\n\n\nApplying the Classifier to Generate Land Cover Classification Map\nFinally, I applied the trained classifier to the composite image to generate a land cover classification map. The classified image assigned distinct colours to different land cover classes, with the colour palette including shades of grey, brown, blue, and green. This visualisation provided a clear understanding of the land cover distribution in Delhi during the year 2019.\n// Code Snippet: Applying the Classifier to Generate Land Cover Classification Map\n\n// Apply the trained classifier to the composite image\nvar classified = compositeImage.classify(classifier);\n\n// Display the land cover classification map\nMap.addLayer(classified, { palette: ['gray', 'red'] }, 'Land Cover Classification');\nLand Classification Map\n\n\n\n\n\n\n\nImage: Land cover classification map of Delhi\n\n\n\n\nAccuracy Assessment:\nTo assess the accuracy of the classification model, I calculated the confusion matrix using the testing dataset. The confusion matrix provided insights into the model’s performance, including metrics such as overall accuracy, producer’s accuracy, and user’s accuracy.\n// Code snippet 7: Calculating the confusion matrix for accuracy assessment\nvar testAccuracy = testing\n    .classify(classifier)\n    .errorMatrix('class', 'classification');\n\nprint('Confusion Matrix:', testAccuracy);\nprint('Overall Accuracy:', testAccuracy.accuracy());\n\n\nCalculating Urban Area Percentage:\nTo understand the extent of urbanization, we calculated the area covered by the urban class within Delhi. We also calculated the total area of Delhi to determine the percentage of urban area.\n\n// New Code Snippet: Calculating urban area percentage\n\n// Calculating area of urban class\nvar urban = classified.select('classification').eq(1);\n\n// Calculate the pixel area in square kilometer for urban\nvar area_urban = urban.multiply(ee.Image.pixelArea()).divide(1000 * 1000);\n\n// Reducing the statistics for urban area in Delhi\nvar stat_urban = area_urban.reduceRegion({\n  reducer: ee.Reducer.sum(),\n  geometry: delhi,\n  scale: 100,\n  maxPixels: 1e10\n});\n\n// Get the sum of pixel values representing urban area\nvar area_urban_sum = ee.Number(stat_urban.get('classification'));\n\n// Calculate the pixel area in square kilometer for Delhi\nvar area_delhi = ee.Image.pixelArea().clip(delhi).divide(1000 * 1000);\n\n// Reducing the statistics for Delhi\nvar stat_delhi = area_delhi.reduceRegion({\n  reducer: ee.Reducer.sum(),\n  geometry: delhi,\n  scale: 100,\n  maxPixels: 1e10\n});\n\n// Get the sum of pixel values representing Delhi area\nvar area_delhi_sum = ee.Number(stat_delhi.get('area'));\n\n// Calculate the percentage of urban area\nvar percentage_urban_area = area_urban_sum.divide(area_delhi_sum).multiply(100);\n\n// Print the urban area in square kilometers\nprint('Urban Area (in sq.km):', area_urban_sum);\n\n// Print the total area of Delhi\nprint('Delhi Area (in sq.km):', area_delhi_sum);\n\n// Print the percentage of urban area\nprint('Percentage of urban area:', percentage_urban_area);\n\n\nExporting the Results:\nLastly, I exported the classified image and the confusion matrix results to Google Drive for further analysis and sharing with collaborators.\n\n// Code snippet 8: Exporting the classified image and confusion matrix to Google Drive\nExport.image.toDrive({\n  image: classified,\n  description: 'classified_image',\n  folder: 'GEE_Classification_Results',\n  scale: 10,\n  region: delhi\n});\n\nExport.table.toDrive({\n  collection: testAccuracy,\n  description: 'confusion_matrix',\n  folder: 'GEE_Classification_Results',\n  fileFormat: 'CSV'\n});"
+  },
+  {
+    "objectID": "posts/geospatial/gee-urbanisation-ml-sentinel-2/index.html#results-and-conclusion",
+    "href": "posts/geospatial/gee-urbanisation-ml-sentinel-2/index.html#results-and-conclusion",
+    "title": "Estimating Urbanisation using Machine Learning and Sentinel-2 Imagery in Google Earth Engine",
+    "section": "Results and Conclusion",
+    "text": "Results and Conclusion\n\nThe land cover classification analysis using the basic Random Forest model achieved an overall accuracy of 87%, indicating the model’s effectiveness in accurately classifying land cover types in Delhi based on satellite imagery data.\nTo further improve the classification results, additional enhancements can be implemented, such as incorporating spectral indices like NDVI (Normalised Difference Vegetation Index) or NDBI (Normalised Difference Built-up Index) to provide additional information for distinguishing different land cover types.\nHyperparameter optimisation can be performed to fine-tune the Random Forest model, adjusting parameters such as the number of trees, tree depth, and feature subsampling, with the potential to achieve higher accuracy.\nThis project primarily focused on land cover classification in Delhi, but there is potential for extending the analysis to other Indian cities. Analysing the model’s performance in different urban environments would provide valuable insights into its generalisability and scalability.\nThe classification results suggest that approximately 78% of Delhi can be classified as urban, highlighting the significant urbanisation within the city.\nBy tracking the historical growth of urban areas in Delhi using satellite imagery, it is possible to gain a deeper understanding of urban expansion patterns over time.\n\nLink to Google Earth Engine script\nLink to original research paper"
+  },
+  {
+    "objectID": "posts/geospatial/index.html",
+    "href": "posts/geospatial/index.html",
+    "title": "Gaza Damage Portal",
+    "section": "",
+    "text": "hbnjnnimk"
+  },
+  {
+    "objectID": "posts/media-contributions/index.html#biomass-soil-carbon-estimation",
+    "href": "posts/media-contributions/index.html#biomass-soil-carbon-estimation",
+    "title": "myspace",
+    "section": "Biomass & Soil Carbon Estimation",
+    "text": "Biomass & Soil Carbon Estimation\n\n\n\n\nDeep Learning for Biomass Estimation\nBuilt an ensemble of deep learning models (ResNet, EfficientNet) for estimating above-ground biomass in India using Sentinel-2 imagery.\n\n🔗 GitHub – Biomass Model Repo\n🔗 Hugging Face – Trained Models\n\n\n\n\nSoil Organic Carbon Prediction (SOC)\nTrained random forest + gradient boosting models to predict SOC using geospatial predictors from EU LUCAS dataset and ISRO references.\n\n🔗 GitHub – SOC ML"
+  },
+  {
+    "objectID": "posts/geospatial/gaza.html",
+    "href": "posts/geospatial/gaza.html",
+    "title": "Gaza Damage Portal",
+    "section": "",
+    "text": "hbnjnnimk"
+  },
+  {
+    "objectID": "posts/media-contributions/index.html#ml-tools-prototypes",
+    "href": "posts/media-contributions/index.html#ml-tools-prototypes",
+    "title": "Portfolio",
+    "section": "🧰 ML Tools & Prototypes",
+    "text": "🧰 ML Tools & Prototypes\n\n\n\n\nCompare Spectra (GEE)\nVisualize + compare spectral profiles.\nLive App\n\n\n\nUrban Classifier (CNN)\nImpervious detection with CNN in EO imagery.\nGitHub\n\n\n\nUrban ML in GEE\nBuilt-up area estimation in Delhi using ML.\nPost"
+  },
+  {
+    "objectID": "posts/media-contributions/index.html#conflict-crisis-mapping",
+    "href": "posts/media-contributions/index.html#conflict-crisis-mapping",
+    "title": "Portfolio",
+    "section": "",
+    "text": "Ukraine Conflict Mapping\nSAR-based damage maps & visual validation in cities incl. Mariupol.\nTagesspiegel\n\n\n\nGaza Conflict Damage\nVerified destruction using EO data across media platforms.\nSZ\n\n\n\nMariupol Destruction (SZ)\nSatellite-based building damage analysis.\nSZ – Mariupol"
+  },
+  {
+    "objectID": "posts/media-contributions/index.html#climate-environmental-risk",
+    "href": "posts/media-contributions/index.html#climate-environmental-risk",
+    "title": "Portfolio",
+    "section": "🌿 Climate & Environmental Risk",
+    "text": "🌿 Climate & Environmental Risk\n\n\n\n\nBiomass Estimation (DL)\nEnsembled ResNet/FCN for AGB using Sentinel-2 + LiDAR.\nGitHub\n\n\n\nSoil Organic Carbon (SOC)\nRF + GBM models using EU LUCAS & Indian data.\nSOC ML\n\n\n\nUrban Surface Sealing\nImpervious surface ML for Correctiv & NDR.\nCorrectiv"
+  },
+  {
+    "objectID": "posts/media-contributions/index.html#machine-learning-prototypes",
+    "href": "posts/media-contributions/index.html#machine-learning-prototypes",
+    "title": "Portfolio",
+    "section": "🟨 Machine Learning & Prototypes",
+    "text": "🟨 Machine Learning & Prototypes\n\n\n\n\nCompare Spectra App\nBuilt an Earth Engine app to explore and compare spectral signatures of land cover types interactively.\n\n🔗 Compare Spectra :::\n\n::: \nUrbanisation Estimation in GEE\nUsed Sentinel-2 + ML in GEE to quantify built-up areas in Delhi. Public tutorial with reproducible workflow.\n\n🔗 View Post :::\n\n::::"
+  },
+  {
+    "objectID": "posts/media-contributions/index.html#policy-public-dashboards",
+    "href": "posts/media-contributions/index.html#policy-public-dashboards",
+    "title": "Portfolio",
+    "section": "📊 Policy & Public Dashboards",
+    "text": "📊 Policy & Public Dashboards\n\n\n\n\nData Science @ CPR\nCivic data visualizations and tools.\nView\n\n\n\nElection Dashboard (Shiny)\nExplorable interface for Indian electoral data.\nGitHub\n\n\n\nPolicy Talks & Trainings\nSessions at Ashoka + CPR on dashboards & EO.\nBlog"
+  },
+  {
+    "objectID": "posts/media-contributions/index.html#data-visualization-gallery",
+    "href": "posts/media-contributions/index.html#data-visualization-gallery",
+    "title": "Portfolio",
+    "section": "📈 Data Visualization Gallery",
+    "text": "📈 Data Visualization Gallery\n\n\n\n\nData Viz Gallery\nggplot2 charts, maps, and infographics.\nView\n\n\n\nSpatial Maps Gallery\nRaster + vector visualizations from EO projects.\nMaps\n\n\n\nTeaching Slides (DS)\nWorkshop materials on data science methods.\nSlides"
+  },
+  {
+    "objectID": "posts/media-contributions/index.html#geospatial-ml-tools",
+    "href": "posts/media-contributions/index.html#geospatial-ml-tools",
+    "title": "Media Contributions",
+    "section": "Geospatial ML & Tools",
+    "text": "Geospatial ML & Tools\n\n\n\n   Biomass Estimation with DL\nResNet and EfficientNet ensemble for estimating above-ground biomass using Sentinel-2.\n\n\n   Soil Organic Carbon Prediction\nRandom forest and boosting models using EO predictors from EU and India.\n\n\n   Impervious Surface Classifier\nCNN model to classify built-up areas from Sentinel-2 imagery.\n\n\n\n\n\n\n   Compare Spectra App\nInteractive Earth Engine tool to compare reflectance across landcover types.\n\n\n   Urbanisation ML Pipeline\nGEE pipeline to predict and map urban expansion in Delhi.\n\n\n   Gaza Damage Portal\nMap app visualizing building-level SAR-based damage.\n\n\n\n\n\n\n   Rhine Flood Monitor\nGEE-based dashboard for monitoring water extent and flood change.\n\n\n   Data Science Workshop Slides\nR-based data workflows and slides from my teaching sessions.\n\n\n   Spatial Visualization Gallery\nRaster + vector layouts from civic mapping and EO work."
+  },
+  {
+    "objectID": "portfolio2.html",
+    "href": "portfolio2.html",
+    "title": "Portfolio",
+    "section": "",
+    "text": "Predicting Burned Areas on Landsat 5 Images using Machine Learning in Python: A Comprehensive Guide\n\n\n\nRemote Sensing\n\nMachine Learning\n\nPython\n\n\n\nThis post provides a comprehensive guide to predicting burned areas on Landsat 5 images using machine learning in Python. It covers all the steps involved in the process…\n\n\n\nNajah\n\n\nJul 16, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\nEstimating Urbanisation using Machine Learning and Sentinel-2 Imagery in Google Earth Engine\n\n\n\nGEE\n\nRemote Sensing\n\nMachine Learning\n\njavascript\n\n\n\nIn this blog post, we explore the use of machine learning techniques and Sentinel-2 satellite imagery in Google Earth Engine to estimate the extent of urbanization in Delhi.…\n\n\n\nNajah\n\n\nJun 23, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\nCompare Spectra App: A Simple and User-Friendly Tool for Spectral Analysis\n\n\n\nnews\n\ncode\n\napp\n\njavascript\n\n\n\nThe compare-spectra app is a new Earth Engine app that simplifies spectral analysis for remote sensing projects. It’s a easy a tool that makes it easy to explore and compare…\n\n\n\nNajah\n\n\nJun 20, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\nData Viz gallery\n\n\n\nR\n\ncode\n\nViz\n\n\n\nA few of my data visualisations\n\n\n\nNajah\n\n\nMay 24, 2023\n\n\n\n\n\n\n\n\n\n\n\nSpatial Viz gallery\n\n\n\nViz\n\n\n\nA few of of my vector and raster maps\n\n\n\nNajah\n\n\nMay 24, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\nData Science Slides\n\n\n\nR\n\ncode\n\nteaching\n\n\n\nMy teaching slides from the data science class\n\n\n\nNajah\n\n\nMay 17, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\nData Science works at CPR\n\n\n\nR\n\ncode\n\n\n\n\n\n\n\nNajah\n\n\nJan 31, 2022\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "portfolio.html#conflict-crisis-damage-mapping",
+    "href": "portfolio.html#conflict-crisis-damage-mapping",
+    "title": "Portfolio",
+    "section": "",
+    "text": "Ukraine Conflict Damage Mapping\nContributed SAR-based proxy damage maps and visual analysis of destruction in Ukrainian cities including Mariupol.\n\n🔗 Tagesspiegel – Ukraine Invasion Overview\n🔗 Süddeutsche Zeitung – Mariupol Destruction\n🔗 Urban Journalism – Ukraine Destruction\n🔗 iStories\n\n\n\n\nGaza Conflict Damage Mapping\nMapped building-level destruction, verified conflict damage, and supported media analysis with satellite data.\n\n🔗 Stern – Systematic Destruction in Gaza\n🔗 Süddeutsche Zeitung – Visual Destruction Summary\n🔗 Handelsblatt – Satellite Imagery from Gaza Conflict\n🔗 NZZ – Gaza Anniversary Retrospective"
+  },
+  {
+    "objectID": "portfolio.html#geospatial-ml-tools",
+    "href": "portfolio.html#geospatial-ml-tools",
+    "title": "Portfolio",
+    "section": "🌍 Geospatial ML & Tools",
+    "text": "🌍 Geospatial ML & Tools\n\n\n\n   Predicting Burned Areas on Landsat 5 Images using Machine Learning in Python\nThis post provides a comprehensive guide to predicting burned areas on Landsat 5 images using machine learning in Python.\n\n\n   Estimating Urbanisation using Machine Learning and Sentinel-2 Imagery in Google Earth Engine\n…estimate the extent of urbanization in Delhi using ML + remote sensing…\n\n\n   Turkey Earthquake Damage Mapping\nMapped estimated building damage using remote sensing (NZZ).\n\n\n\n\n\n\n   Rhine Flood Dashboard\nGEE-powered tool to visualize flooding and extent change.\n\n\n   Compare Spectra App: A Simple and User-Friendly Tool for Spectral Analysis\nThe compare-spectra app simplifies spectral analysis for remote sensing projects.\n\n\n   Spatial Viz gallery\nA few of of my vector and raster maps"
+  },
+  {
+    "objectID": "portfolio.html#geospatial-ml-tools-1",
+    "href": "portfolio.html#geospatial-ml-tools-1",
+    "title": "Media Contributions",
+    "section": "🌍 Geospatial ML & Tools",
+    "text": "🌍 Geospatial ML & Tools\n\n\n\n   Predicting Burned Areas on Landsat 5 Images using Machine Learning in Python\nThis post provides a comprehensive guide to predicting burned areas on Landsat 5 images using machine learning in Python.\n\n\n   Estimating Urbanisation using Machine Learning and Sentinel-2 Imagery in Google Earth Engine\n…estimate the extent of urbanization in Delhi using ML + remote sensing…\n\n\n   Gaza Damage Portal\nInteractive map showing building-level conflict damage.\n\n\n\n\n\n\n   Compare Spectra App: A Simple and User-Friendly Tool for Spectral Analysis\nThe compare-spectra app simplifies spectral analysis for remote sensing projects.\n\n\n   Spatial Viz gallery\nA few of of my vector and raster maps\n\n\n   Rhine Flood Dashboard\nGEE-powered tool to visualize flooding and extent change.\n\n\n\n\n\n\n   Turkey Earthquake Damage Mapping\nMapped estimated building damage using remote sensing (NZZ).\n\n\n   Biomass Estimation (DL)\nResNet/EfficientNet-based AGB predictions for India.\n\n\n   Soil Organic Carbon Prediction\nML-based SOC mapping using EU + Indian data layers."
+  },
+  {
+    "objectID": "portfolio.html#data-visuals-public-impact",
+    "href": "portfolio.html#data-visuals-public-impact",
+    "title": "Portfolio",
+    "section": "🧭 Data, Visuals & Public Impact",
+    "text": "🧭 Data, Visuals & Public Impact\n\n\n\n   Data Science Slides\nMy teaching slides from the data science class.\n\n\n   Data Viz gallery\nA few of my data visualisations\n\n\n   Data Science works at CPR"
   }
 ]

@@ -1,2 +1,35 @@
 /* css styles */
 /* Change navbar background and text color */
+/* Card layout for each media project */
+.media-card {
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  padding: 1.2rem;
+  background-color: #ffffff;
+  margin-bottom: 2rem;
+  transition: transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+.media-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+}
+
+.media-title {
+  font-weight: 600;
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.media-summary {
+  font-size: 0.95rem;
+  color: #444;
+  margin-bottom: 0.5rem;
+}
+
+.media-link {
+  display: inline-block;
+  color: #0072B5;
+  font-weight: 500;
+  margin-top: 0.2rem;
+}

@@ -73,5 +73,17 @@
   },
   "contact.qmd": {
     "contact.html": "4a9b7feb"
+  },
+  "posts/geospatial/gaza.qmd": {
+    "gaza.html": "d6345678"
+  },
+  "posts/geospatial/gee-urbanisation-ml-sentinel-2/index.qmd": {
+    "index.html": "9737e859"
+  },
+  "posts/geospatial/index.qmd": {
+    "index.html": "366881f1"
+  },
+  "portfolio2.qmd": {
+    "portfolio2.html": "46232ecd"
   }
 }
