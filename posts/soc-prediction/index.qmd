@@ -1,0 +1,38 @@
+---
+title: "Soil Organic Carbon Estimation with Machine Learning"
+author: "Najah"
+date: "2024-05-20"
+description: ""
+image: ML_for_SOC_GIZ_Najah.png
+filters:
+   - lightbox
+lightbox: 
+  match: auto
+toc: false
+toc-depth: 5
+
+code-fold: true
+categories: 
+execute: 
+  eval: false
+---
+
+
+This was one of the first projects I worked on at Vertify. The task was to build a prediction model for soil organic carbon (SOC) for a region in India—on a very tight deadline. I kept it simple and focused on getting something working quickly, mainly because:
+
+- There wasn’t much time to experiment
+- The dataset was quite limited
+
+The ground truth data came from soil samples collected across multiple Indian states. But there was a catch: the data had been gathered by different agencies, with no consistency in measurement or formatting. After some comparisons, we realized the data quality was pretty poor.
+
+A major part of the project became figuring out which datasets were usable. Each subset produced very different model behavior. And given the diversity in Indian landscapes, building a stable model was not straightforward.
+
+Initially, model accuracy was below 20%. Through several rounds of data cleaning, variable selection, and feature engineering, it gradually improved. The biggest gain came after incorporating geographic context as part of the input. In the end, we were able to reach about 80% accuracy.
+
+All initial experiments were done using the Google Earth Engine Python API, and the final implementation was deployed directly in GEE.
+
+
+[GitHub Repo:](https://github.com/vertify-earth/Soilify/tree/main/soil_organic_carbon)
+
+The results were later presented to the Ministry of Agriculture in India.
+

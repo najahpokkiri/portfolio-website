@@ -85,5 +85,11 @@
   },
   "portfolio2.qmd": {
     "portfolio2.html": "46232ecd"
+  },
+  "posts/biomass-dl/index.qmd": {
+    "index.html": "2baa656c"
+  },
+  "posts/soc-prediction/index.qmd": {
+    "index.html": "b29df322"
   }
 }

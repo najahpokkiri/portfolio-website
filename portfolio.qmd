@@ -14,6 +14,51 @@ format:
     theme: cosmo
 ---
 
+## Environmental AI
+
+:::: {layout="[50, 50]"}
+::: {#First-column}
+<a href="/posts/biomass-dl/index.qmd" >
+<img src="posts/biomass-dl/agb_hf.jpg" style="height: 250px; width: 100%; object-fit: cover;">
+</a>
+**Biomass Estimation (DL)**  
+ResNet/EfficientNet-based AGB predictions for India.
+
+:::
+::: {#second-column}
+<a href="posts/soc-prediction/index.qmd">
+<img src="posts/soc-prediction/ML_for_SOC_GIZ_Najah.png" style="height: 250px; width: 100%; object-fit: cover;">
+</a>
+**Soil Organic Carbon Prediction**  
+ML-based SOC mapping using EU + Indian data layers.
+
+:::
+:::
+
+:::: {layout="[50, 50]"}
+::: {#first-column}
+<!-- <a href="posts/soc-prediction/index.qmd"> -->
+<img src="/posts/media-contributions/images/corrective_imperviousness.jpg" style="height: 250px; width: 100%; object-fit: cover;">
+</a>
+**Urban Surface Sealing**  
+Developed impervious-surface detection models for Correctiv and NDR using Sentinel-2 imagery and machine learning.
+
+- [🔗 Correctiv](https://correctiv.org/aktuelles/2024/10/01/zwischen-asphalt-und-beton-versiegelung-deutscher-staedte-nimmt-zu/)
+- [🔗 NDR](https://www.ndr.de/nachrichten/ndrdata/Klima-in-Hamburg-Temperatur-haengt-stark-vom-Stadtteil-ab-,versiegelung102.html)
+:::
+
+::: {#second-column}
+
+<a href="posts/ml-burned-area-prediction-landsat5-python/">
+<img src="/posts/biomass-dl/agb-cover.jpg" style="height: 250px; width: 100%; object-fit: cover;">
+</a>
+**Predicting Burned Areas on Landsat 5 Images using Machine Learning in Python**  
+This post provides a comprehensive guide to predicting burned areas on Landsat 5 images using machine learning in Python.
+
+:::
+::::
+
+
 
 ## Conflict & Crisis Damage Mapping
 
@@ -52,12 +97,16 @@ Mapped building-level destruction, verified conflict damage, and supported media
 :::: {layout="[33, 33, 33]"}
 
 ::: {#first-column}
-<a href="posts/ml-burned-area-prediction-landsat5-python/">
-<img src="posts/ml-burned-area-prediction-landsat5-python/fire_parnith.webp" style="height: 250px; width: 100%; object-fit: cover;">
+<a href="http://gaza-buildings.netlify.app">
+<img src="../posts/images/damage-portal.jpg" style="height: 250px; width: 100%; object-fit: cover;">
 </a>
-**Predicting Burned Areas on Landsat 5 Images using Machine Learning in Python**  
-This post provides a comprehensive guide to predicting burned areas on Landsat 5 images using machine learning in Python.
-:::
+
+**Gaza Damage Map Portal**
+
+Developed an interactive website for visualising Gaza building damage; full-stack delivery from layers to interface.
+
+::: 
+
 
 ::: {#second-column}
 <a href="posts/gee-urbanisation-ml-sentinel-2/">
@@ -65,14 +114,16 @@ This post provides a comprehensive guide to predicting burned areas on Landsat 5
 </a>
 **Estimating Urbanisation using Machine Learning and Sentinel-2 Imagery in Google Earth Engine**  
 ...estimate the extent of urbanization in Delhi using ML + remote sensing...
+
 :::
 
 ::: {#third-column}
-<a href="https://www.nzz.ch/english/turkey-struggles-to-remove-200-million-tons-of-quake-debris-ld.1833854" target="_blank">
+<a href="https://www.nzz.ch/english/turkey-struggles-to-remove-200-million-tons-of-quake-debris-ld.1833854">
 <img src="posts/media-contributions/images/sz-eq.png" style="height: 250px; width: 100%; object-fit: cover;">
 </a>
 **Turkey Earthquake Damage Mapping**  
 Mapped estimated building damage using remote sensing (NZZ).
+
 :::
 
 ::::
@@ -95,16 +146,20 @@ GEE-powered tool to visualize flooding and extent change.
 The compare-spectra app simplifies spectral analysis for remote sensing projects.
 :::
 
-::: {#third-column}
+<!-- ::: {#third-column}
 <a href="posts/spatial-viz/">
 <img src="posts/spatial-viz/figs/ndvi.png" style="height: 250px; width: 100%; object-fit: cover;">
 </a>
 **Spatial Viz gallery**  
 A few of of my vector and raster maps
-:::
+::: -->
+
 
 
 ::::
+
+
+
 <!-- ::::
 
 :::: {layout="[33, 33, 33]"}

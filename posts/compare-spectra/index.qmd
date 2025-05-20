@@ -10,33 +10,28 @@ lightbox:
 image: app_icon.webp
 categories: [news, code, app, javascript]
 ---
+compare-spectra: a simple Earth Engine app for spectral analysis
 
-TL;DR:
+Made a small Earth Engine app to do quick spectral analysis.
+You can select areas, draw ROIs, and compare spectra with just a few clicks.
+No coding needed. Just open and start exploring.
 
-I've developed a new Earth Engine app for spectral analysis. It's simple, user-friendly, and free to use. Check it out!
+You can also export the line charts as images or download the spectral data as CSV.
 
-I am excited to share a new Earth Engine app that I've developed, designed to simplify spectral analysis for remote sensing projects. It's called the compare-spectra app, and it's a simple and user-friendly tool that makes it easy to explore and compare spectra without the need for extensive coding or expensive tools.
+Main features:
 
-The compare-spectra app allows you to select your study area, draw regions of interest (ROIs), and generate comparative line charts that visualize the spectra of the selected areas. You can also download the generated charts as images or export the spectral data as a CSV file.
+-	Select and compare multiple ROIs
+-	Line charts to visualise spectra
+-	Export charts and data
+-	Free and open source
+-	Built fully on GEE – no install needed
 
-The app is a web-based application, so you can use it without the need to install any software. Simply open the app in your browser and follow the instructions.
+Built this mostly because I wanted something lightweight and easy for quick comparisons, without opening Jupyter or writing scripts.
 
-Here are some of the features of the compare-spectra app:
+Here’s the link: [compare-spectra app](https://najah.users.earthengine.app/view/compare-spectra)
 
--   Simple and user-friendly interface: The app is easy to use, even if you're not familiar with Earth Engine.
+Let me know if you find it useful or if you have suggestions.
 
--   No coding required: You don't need to know any code to use the app. Cost-effective: The app is free to use.
-
--   Flexible and customizable: You can customize the app to fit your specific needs.
-
--   Open source: The app is open source, so you can contribute to its development.
-
-If you're interested in trying out the compare-spectra app, you can visit the app [link](https://najah.users.earthengine.app/view/compare-spectra). I'm looking for feedback and suggestions on how to improve the app, so please feel free to leave your feedback in the comments section below.
-
-I hope you find the compare-spectra app useful. If you have any questions, please don't hesitate to contact me.
-
-Cheers!
-
-Here's the demo on how to use the app :
+Here’s a quick demo:
 
 ![](app_recording.webp){fig-alt="compare-spectra-demo" width="800"}

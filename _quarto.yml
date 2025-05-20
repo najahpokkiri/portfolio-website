@@ -1,7 +1,7 @@
 project:
   type: website
 website:
-  title: "myspace"
+  title: "Najah"
   navbar:
     background: light
     right:
@@ -30,7 +30,7 @@ website:
 
 format:
   html:
-    theme: Litera
+    # theme: Litera
     css: styles.css
 
 

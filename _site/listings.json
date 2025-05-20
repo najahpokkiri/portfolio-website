@@ -1,21 +1,9 @@
 [
   {
-    "listing": "/portfolio.html",
-    "items": [
-      "/posts/media-contributions/index.html",
-      "/posts/geospatial/gaza.html",
-      "/posts/ml-burned-area-prediction-landsat5-python/index.html",
-      "/posts/geospatial/gee-urbanisation-ml-sentinel-2/index.html",
-      "/posts/compare-spectra/index.html",
-      "/posts/viz/index.html",
-      "/posts/spatial-viz/index.html",
-      "/posts/d3s/index.html",
-      "/posts/cpr-pol-connect/index.html"
-    ]
-  },
-  {
     "listing": "/portfolio2.html",
     "items": [
+      "/posts/biomass-dl/index.html",
+      "/posts/soc-prediction/index.html",
       "/posts/ml-burned-area-prediction-landsat5-python/index.html",
       "/posts/gee-urbanisation-ml-sentinel-2/index.html",
       "/posts/compare-spectra/index.html",

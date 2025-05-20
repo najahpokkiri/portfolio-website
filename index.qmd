@@ -1,6 +1,5 @@
----
+<!-- ---
 title: Najah Pokkiri
-image: IMG_9478.jpg
 filters:
    - lightbox
 lightbox: auto
@@ -16,13 +15,55 @@ about:
       text: Github
       href: https://github.com/najahpokkiri
 
----
+--- -->
 
-I am a data scientist with a keen interest in using satellite imagery, remote sensing, and machine learning to solve real-world problems. I graduated from Ashoka University in India with a liberal arts degree and am currently pursuing my master’s in Geodesy and Geoinformation at TU Berlin. Over the past few years, I’ve worked on geospatial data science projects in the domains of climate, conflict, conservation, and urban development.
 
-Most recently, I worked as a data scientist for two Earth observation startups—one focused on monitoring natural capital and the other on providing satellite intelligence to media organisations. My projects included estimating biomass using multi-sensor satellite data, mapping conflict damage in Gaza and Ukraine using SAR interferometry, and building machine learning models to predict soil carbon across Indian states. These projects have drawn on a range of geospatial techniques, including deep learning for remote sensing and time series analysis. I’ve also represented my work at international conferences such as COP28 and Google Geo for Good.
 
-In addition to consulting, I currently work as a teaching assistant for an executive programme at the Ashoka Centre for Data Science, where I help mid-career professionals learn data science skills. I am open to short-term or part-time consulting roles in the geospatial data science domain, particularly those that combine Earth observation and machine learning for social or environmental impact.
+:::: {layout="[60,40]"}
+::: {#first-column}
+
+
+### 👋 Hi, I’m Najah
+
+
+I'm a data scientist working at the intersection of **satellite imagery**, **remote sensing**, and **machine learning**. I’ve led projects spanning climate, conflict, conservation, and urban change—leveraging geospatial intelligence for impact.
+
+Most recently, I’ve worked with two Earth observation startups: one on monitoring natural capital and the other on delivering satellite insights to newsrooms. Projects include:
+
+- 🌱 Biomass estimation using multi-sensor data  
+- 🏚️ Damage mapping in Gaza & Ukraine with SAR interferometry  
+- 🏕️ Soil organic carbon prediction models for India
+- 🌆 Impervious area detection in German cities
+
+I’ve presented at global venues like **COP28** and **Google Geo for Good**.
+
+I also teach data science at Ashoka Centre and am now looking for **part-time, full-time, or contract roles** in **applied geospatial AI**.
+
+
+
+:::
+
+::: {#second-column}
+![](IMG_9478.jpg){width=60%}
+:::
+::::
+
+
+> 🗣️ _“I’m passionate about using data science for environmental and social impact.”_
+
+> 📍 Based in Berlin | 🌏 Working on global problems
+
+[View My Portfolio](portfolio.qmd){.btn .btn-primary}
+[Download CV](docs/cv1_leadersip.pdf){.btn .btn-outline}
+
+
+<!-- I’m a data scientist working at the intersection of satellite imagery, remote sensing, and machine learning. My background is in liberal arts from Ashoka University, India, and over the last few years, I’ve worked on geospatial projects across climate, conflict, conservation, and urban development.
+
+I’ve worked with two Earth observation startups—one focused on monitoring natural capital, the other on satellite intelligence for media. My projects include estimating biomass using multi-sensor satellite data, mapping conflict damage in Gaza and Ukraine with SAR interferometry, and building ML models to predict soil carbon across Indian states.
+
+Most of my work blends Earth observation with applied machine learning—things like deep learning on remote sensing data, time series modeling, and multi-resolution data fusion. I’ve also presented at conferences like COP28 and Google Geo for Good.
+
+I currently also support teaching at the Ashoka Centre for Data Science. I’m open to part-time, contract, or full-time opportunities in geospatial data science—especially projects with real-world impact. -->
 
 <!-- I am a data scientist with a keen interest in using remote sensing and machine learning to solve real-world problems. I graduated from Ashoka University in India with a liberal arts degree, and I have worked on data science projects in the domains of policy, urbanisation, climate, and sustainability.
 
