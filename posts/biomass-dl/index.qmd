@@ -64,10 +64,10 @@ With this pixelwise approach, we now reach R² ≈ 0.9, RMSE < 30 Mg/ha, and MAE
 
 I’m still finalizing documentation, but the code and models are now public:
 
-- Training code: https://github.com/vertify-earth/biomass-prediction
+- Training code: [https://github.com/vertify-earth/biomass-prediction](https://github.com/vertify-earth/biomass-prediction)
 <!-- -	Inference pipeline: https://github.com/vertify-earth/biomass-dl-model-training/blob/main/biomass_inference_notebook_Version2.ipynb -->
--	Model hub: https://huggingface.co/vertify/biomass-model
--	Live demo: https://vertify-biomass-prediction-app.hf.space/
+-	Model hub: [https://huggingface.co/vertify/biomass-model](https://huggingface.co/vertify/biomass-model)
+-	Live demo: [https://vertify-biomass-prediction-app.hf.space/](https://vertify-biomass-prediction-app.hf.space/)
 
 I’ll write a more detailed post later covering all the experiments, failed directions, and lessons learned.
 
