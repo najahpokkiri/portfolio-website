@@ -54,7 +54,7 @@ I also teach data science at Ashoka Centre and am now looking for **part-time, f
 > 📍 Based in Berlin | 🌏 Working on global problems
 
 [View My Portfolio](portfolio.qmd){.btn .btn-primary}
-[Download CV](docs/cv1_leadersip.pdf){.btn .btn-outline}
+[Download CV](docs/resume_najah_aib.pdf){.btn .btn-outline}
 
 
 <!-- I’m a data scientist working at the intersection of satellite imagery, remote sensing, and machine learning. My background is in liberal arts from Ashoka University, India, and over the last few years, I’ve worked on geospatial projects across climate, conflict, conservation, and urban development.

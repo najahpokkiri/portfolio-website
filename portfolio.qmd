@@ -19,7 +19,7 @@ format:
 :::: {layout="[50, 50]"}
 ::: {#First-column}
 <a href="/posts/biomass-dl/index.qmd" >
-<img src="posts/biomass-dl/agb_hf.jpg" style="height: 250px; width: 100%; object-fit: cover;">
+<img src="posts/biomass-dl/agb_hf.jpg" style="height: 250px; width: 100%;">
 </a>
 **Biomass Estimation (DL)**  
 ResNet/EfficientNet-based AGB predictions for India.
@@ -27,7 +27,7 @@ ResNet/EfficientNet-based AGB predictions for India.
 :::
 ::: {#second-column}
 <a href="posts/soc-prediction/index.qmd">
-<img src="posts/soc-prediction/ML_for_SOC_GIZ_Najah.png" style="height: 250px; width: 100%; object-fit: cover;">
+<img src="posts/soc-prediction/ML_for_SOC_GIZ_Najah.png" style="height: 250px; width: 100%; ">
 </a>
 **Soil Organic Carbon Prediction**  
 ML-based SOC mapping using EU + Indian data layers.
@@ -49,11 +49,13 @@ Developed impervious-surface detection models for Correctiv and NDR using Sentin
 
 ::: {#second-column}
 
-<a href="posts/ml-burned-area-prediction-landsat5-python/">
-<img src="/posts/biomass-dl/agb-cover.jpg" style="height: 250px; width: 100%; object-fit: cover;">
+<a href="posts/natcat/">
+<img src="./docs/IMG_7338.jpg" style="height: 250px; width: 100%; object-fit: cover;">
 </a>
-**Predicting Burned Areas on Landsat 5 Images using Machine Learning in Python**  
-This post provides a comprehensive guide to predicting burned areas on Landsat 5 images using machine learning in Python.
+
+**A Natural Catastrophe Response Platform**  
+
+Platfrom developed for disaster response, co-developed with Gautam Dadich. Featured by <strong>Live Science</strong> as one of the "16 Tech Projects That Could Change the World" and selected for the prestigious <strong>Prototypes for Humanity 2024
 
 :::
 ::::
@@ -129,6 +131,18 @@ Mapped estimated building damage using remote sensing (NZZ).
 ::::
 
 :::: {layout="[33, 33, 33]"}
+
+
+
+::: {#second-column}
+
+<a href="posts/ml-burned-area-prediction-landsat5-python/">
+<img src="/posts/biomass-dl/agb-cover.jpg" style="height: 250px; width: 100%; object-fit: cover;">
+</a>
+**Predicting Burned Areas on Landsat 5 Images using Machine Learning in Python**  
+This post provides a comprehensive guide to predicting burned areas on Landsat 5 images using machine learning in Python.
+
+:::
 
 ::: {#first-column}
 <a href="https://ee-najah.projects.earthengine.app/view/rhine-floods-de" target="_blank">
